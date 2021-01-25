@@ -69,7 +69,7 @@ for continent in continents_list:
 
                         cities_pop.append((cname, cpop))
 
-                cities_pop.sort(key=lambda x: x[1])
+                cities_pop.sort(key=lambda x: x[1], reverse=True)
                 sorted_cities = [c[0] for c in cities_pop]
 
                 # Output to file

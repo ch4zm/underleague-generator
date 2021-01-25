@@ -99,10 +99,10 @@ for continent in continents_list:
 
                         cities_pop.append((cname, cpop))
 
-        cities_pop.sort(key=lambda x: x[1])
+        cities_pop.sort(key=lambda x: x[1], reverse=True)
         final_cities = [c[0] for c in cities_pop]
 
-        states_pop.sort(key=lambda x: x[1])
+        states_pop.sort(key=lambda x: x[1], reverse=True)
         final_states = [s[0] for s in states_pop]
 
         if len(final_cities)>0:
