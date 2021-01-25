@@ -1,0 +1,83 @@
+Nenets
+Chukotka
+Magadan
+Jewish Oblast
+Altai Republic
+Kalmykia
+Tuva
+Kamchatka
+Karachay-Cherkess Republic
+Adygea
+Ingushetia
+Yamalo-Nenets
+Khakassia
+Sakhalin
+Novgorod
+North Ossetia-Alania
+Karelia
+Mari El
+Kostroma
+Pskov
+Oryol
+Mordovia
+Murmansk
+Kabardino-Balkaria
+Amur
+Yakutia
+Kaliningrad
+Buryatia
+Astrakhan
+Komi
+Kurgan
+Kaluga
+Tomsk
+Smolensk
+Chechnya
+Ivanovo
+Zabaykalsky
+Tambov
+Lipetsk
+Ryazan
+Kursk
+Vologda
+Arkhangelsk
+Chuvashia
+Tyumen
+Yaroslavl
+Bryansk
+Ulyanovsk
+Khanty-Mansi
+Khabarovsk
+Penza
+Tver
+Kirov
+Belgorod
+Vladimir
+Udmurtia
+Leningrad
+Tula
+Primorsky
+Omsk
+Orenburg
+Voronezh
+Dagestan
+Irkutsk
+Altai Krai
+Saratov
+Novosibirsk
+Volgograd
+Stavropol
+Perm
+Kemerovo
+Krasnoyarsk
+Samara
+Nizhni Novgorod
+Chelyabinsk
+Tatarstan
+Bashkortostan
+Rostov
+Sverdlovsk
+St. Petersburg
+Krasnodar
+Moscow Oblast
+Moscow

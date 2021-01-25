@@ -1,0 +1,982 @@
+Ubaque
+Coromoro
+El Dorado
+Tópaga
+Tibacuy
+Somondoco
+Santiago
+Cómbita
+Tipacoque
+Zetaquira
+Guayabal de Síquima
+Santa Sofía
+Cumbitara
+Sucre
+San José de Miranda
+Topaipí
+Granada
+Chaguaní
+Chinavita
+Elías
+Nilo
+Carmen del Darién
+Galan
+Chitaraque
+Floresta
+La Paz
+Guataquí
+Cabuyaro
+Maripí
+Río Iro
+Piedras
+Ciénega
+Barranca de Upía
+Rio Quito
+Jenesano
+Molagavita
+Susacón
+Vetas
+Nariño
+La Playa
+Paez
+Florian
+Suarez
+Marulanda
+Pajarito
+Abriaquí
+Nunchía
+Umbita
+Silos
+Ospina Pérez
+Los Santos
+Tenza
+El Espino
+Sutatausa
+Pandi
+Colón
+Sotaquira
+Chiscas
+Santa Rosalía
+Quetame
+La Capilla
+Saboya
+Siachoque
+Belmira
+Sotara
+Onzaga
+Bojaya
+Cabrera
+Manta
+Cacota
+Cucaita
+Sabanalarga
+San Cayetano
+Sutamarchan
+Puerto Parra
+Litoral del San Juan
+Fosca
+Marmato
+Giraldo
+Cubara
+Florencia
+Zipacón
+Valle de San Juan
+Alpujarra
+Junín
+Cerinza
+Lourdes
+Hacarí
+Concepción
+San Pablo de Borbur
+San Pedro de Cartago
+Castilla la Nueva
+Corrales
+Arcabuco
+San Antonio del Tequendama
+Viani
+Casabianca
+El Carmen
+Contadero
+San Carlos Guaroa
+Susa
+San Fernando
+Caicedo
+Chivor
+San Mateo
+Guaca
+Labateca
+Tuta
+Herran
+La Belleza
+Gachala
+Saladoblanco
+La Peña
+Matanza
+Ventaquemada
+Paicol
+Anza
+Alban
+Gameza
+Cucunuba
+La Uvita
+Betulia
+San José
+Guadalupe
+Arboleda
+Imués
+Macheta
+Roberto Payan
+Sachica
+Mallama
+Peque
+Tibana
+Tasco
+Rosas
+Murillo
+Villacaro
+Campamento
+Sesquilé
+Iles
+Ubala
+Totoró
+Quipile
+Nóvita
+Supata
+Angelópolis
+Guatavita
+Carmen de Carupa
+Margarita
+Cucutilla
+Aldana
+Jambaló
+Mapiripan
+Montebello
+Tamara
+Los Córdobas
+Cuaspud
+Guayabetal
+Palestina
+Paratebueno
+San Luis de Palenque
+Armenia
+Santa Isabel
+Alvarado
+San Calixto
+Cunday
+Buenavista
+Santana
+Cachira
+Aratoca
+Güican
+La Uribe
+Puerto Nariño
+Raquira
+Altamira
+La Sierra
+Firavitoba
+Buenos Aires
+Simacota
+Guadalupe
+Socota
+Briceño
+Teorama
+Anzoategui
+Bolívar
+Nataga
+Santa Maria
+Consaca
+Morelia
+El Carmen
+Vergara
+Cubarral
+Uramita
+El Peñol
+Monguí
+Balboa
+Oporapa
+Mongua
+Jurado
+Murindó
+Liborina
+El Tablón
+Policarpa
+Santa Rosa
+Buritica
+Colombia
+San José del Palmar
+San Lorenzo
+Heliconia
+Providencia
+La Cumbre
+Cerrito
+Hispania
+Santacruz
+Güepsa
+Nocaima
+Suaza
+Funes
+Gualmatan
+Bochalema
+Sabanalarga
+Concepción
+Valle San José
+Unión Panamericana
+Sucre
+Lenguazaque
+San Luis de Gaceno
+El Castillo
+Ebéjico
+El Rosario
+Zapayan
+Ricaurte
+Milan
+Canalete
+Ulloa
+Sapuyes
+San Juan de Arama
+Hato Corozal
+Yacuanquer
+Lloró
+Pauna
+Ricaurte
+Suaita
+Tarso
+Arboledas
+El Cocuy
+Chipaque
+Nueva Granada
+Santiago
+La Esperanza
+El Aguila
+Alejandría
+Villavieja
+Nuquí
+La Llanada
+Ospina
+Santa Maria
+Miraflores
+San Francisco
+San Francisco
+Chima
+San José de la Montaña
+Atrato
+Orocué
+Cértegui
+Guayata
+Santo Domingo
+La Florida
+Magüí
+Chalan
+Turmequé
+Chita
+Taminango
+Caimito
+Nariño
+Medio San Juan
+Utica
+Sasaima
+Inza
+Solano
+San Bernardo
+Puerto Escondido
+San Andrés
+Caramanta
+Mutis
+Villarrica
+La Argentina
+Medina
+Maceo
+Gachancipa
+Caracolí
+Almaguer
+Belén
+San Andrés
+Carolina
+Pasca
+Nariño
+Yacopí
+Une
+Puerto Caycedo
+Alto Baudó
+El Cairo
+Colón
+Cantón de San Pablo
+La Montañita
+El Roble
+Providencia
+El Tarra
+Tangua
+San Juan de Ríoseco
+Socha
+San Jerónimo
+Nobsa
+El Retorno
+San Jacinto del Cauca
+Cajibío
+Solita
+Regidor
+Piojó
+Valdivia
+Curití
+Argelia
+Paz del Río
+Mogotes
+San Carlos
+Entrerríos
+La Macarena
+La Vega
+Durania
+Mosquera
+Argelia
+Landazuri
+Herveo
+Sabanas de San Angel
+Contratación
+Linares
+Caldono
+Palocabildo
+Tibasosa
+Icononzo
+Guasca
+Versalles
+Ragonvalia
+Prado
+Quípama
+Gramalote
+Otanche
+Fuente de Oro
+Arroyohondo
+Valparaíso
+San José de Fragua
+Angostura
+Hatillo de Loba
+Leiva
+Pedraza
+Samaca
+López
+Villanueva
+Puerto Rondón
+Calamar
+Colosó
+Boavita
+Dolores
+Valparaíso
+La Tola
+Córdoba
+Titiribí
+Capitanejo
+Betania
+Puerres
+La Merced
+Tenjo
+Chitaga
+Coyaima
+Yalí
+Toribio
+Roncesvalles
+La Primavera
+Teruel
+Belén Andaquíes
+Íquira
+Toca
+Pital
+Oiba
+Potosí
+Tesalia
+Palmito
+Guachucal
+Puerto Triunfo
+Córdoba
+Vijes
+Morales
+Rafael Reyes
+Gacheta
+Subachoque
+Puerto Guzman
+Gómez Plata
+Ataco
+Pore
+Salento
+Tarqui
+Barichara
+Villahermosa
+Albania
+Mesetas
+Bolívar
+Pueblo Rico
+Buesaco
+Unguía
+Tabio
+San Luis
+Salazar
+El Peñon
+Guacheta
+Tiquisio
+Cachipay
+Argelia
+Choachí
+Vista Hermosa
+Puerto Concordia
+San Zenón
+San Francisco
+Santa Barbara de Pinto
+Guatica
+Bojaca
+Baraya
+Dibulla
+Puerto Nare
+La Unión
+Hobo
+Acevedo
+Padilla
+Caparrapí
+Toledo
+Agrado
+Bagadó
+Fortul
+Vigía del Fuerte
+Cantagallo
+Mercaderes
+Victoria
+El Guamo
+San Cristóbal
+Distracción
+Trinidad
+Cogua
+Guadalupe
+Anorí
+Simijaca
+Morales
+Cravo Norte
+Tauramena
+Mutata
+Puracé
+Los Andes
+Acandí
+Miraflores
+Tello
+Santa Barbara
+Suesca
+Cotorra
+Ambalema
+Chachagüí
+Sopetran
+La Celia
+Morroa
+Anapoima
+Tamalameque
+Caceres
+San Vicente
+Guamal
+Puerto Rico
+Ramiriquí
+Buenavista
+Filadelfia
+Puerto Lleras
+Leiva
+Pesca
+Lejanías
+Paez
+San Antonio
+Isnos
+Betulia
+Altos del Rosario
+Falan
+Arbelaez
+Cocorna
+El Molino
+El Carmen
+Pueblorrico
+El Playón
+Guayabal
+La Pintada
+Arenal
+Moñitos
+Guatapé
+Fómeque
+Pijiño
+Belén
+Risaralda
+Guaranda
+San José
+Venecia
+Nemocón
+San Pedro
+Zona Bananera
+El Rosal
+San Roque
+Anolaima
+Montecristo
+Gonzalez
+San Pelayo
+Carmen de Apicala
+Granada
+Pijao
+La Vega
+Aquitania
+Yaguara
+Charala
+Puente Nacional
+Viota
+Ancuya
+Trujillo
+Villapinzón
+Toledo
+Puerto Gaitan
+Barranco de Loba
+Norcasia
+Cañasgordas
+Tocancipa
+Yolombó
+Zapatoca
+Santa Catalina
+Ginebra
+Pizarro
+Río de Oro
+Salamina
+Bajo Baudó
+El Charco
+Ríoblanco
+Talaigua
+Pinillos
+Marquetalia
+Mistrató
+Timbiquí
+Balboa
+Guaitarilla
+Pueblo Bello
+El Tambo
+Albania
+Belalcazar
+El Paso
+Tamesis
+Remedios
+Salgar
+Momil
+San Luis
+Caloto
+San Sebastian
+San Pablo
+Córdoba
+Concordia
+San Andrés Sotavento
+Simití
+Nechí
+Pupiales
+La Gloria
+Santuario
+Filandia
+Ortega
+Santa Rosa de Viterbo
+Apía
+Rovira
+Río Viejo
+Hatonuevo
+Villagarzón
+San Martín
+Maní
+Purísima
+Cerro San Antonio
+Guateque
+Génova
+Riosucio
+San Miguel
+Buenavista
+San Rafael
+El Tambo
+Obando
+Gamarra
+Abejorral
+Silvia
+El Piñón
+Restrepo
+Yondó
+Uribia
+Cumbal
+Cartagena del Chaira
+Choconta
+Cota
+El Paujil
+San Bernardo
+Barbacoas
+Cicuco
+Peñol
+San Carlos
+Jardín
+Jericó
+Monterrey
+Samana
+Palestina
+Sardinata
+Retiro
+El Dovio
+Manaure
+Caqueza
+Aipe
+Muzo
+San Diego
+Rivera
+Soplaviento
+La Palma
+Pensilvania
+Tubara
+Timana
+Cisneros
+Pacora
+Silvania
+Toluviejo
+Remolino
+La Unión
+Yotoco
+Arboletes
+Sopó
+Achí
+Tenerife
+Urumita
+Frontino
+Juan de Acosta
+La Cruz
+Clemencia
+San Pedro
+San Martín de Loba
+Santa Rosa del Sur
+Lebrija
+Fredonia
+San Bernardo Viento
+Astrea
+Becerril
+Guamal
+Villa Rica
+Pueblo Nuevo
+San Juan de Betulia
+Puerto Leguízamo
+Alcala
+Usiacurí
+Calamar
+Mahates
+Ríofrío
+Saldaña
+Cajamarca
+Concordia
+Aranzazu
+Sibundoy
+Galeras
+San Agustín
+Ríonegro
+Curillo
+Restrepo
+Zambrano
+Timbío
+Vegachi
+Chinacota
+Manaure
+Planadas
+Amalfi
+Moniquira
+Olaya Herrera
+Gigante
+Puerto Salgar
+Palermo
+Condoto
+Convención
+Arauquita
+Valle del Guamuez
+Suarez
+Don Matías
+Algarrobo
+Tadó
+La Calera
+Santa Rosa de Osos
+Puerto Carreño
+Turbana
+Tocaima
+La Apartada
+Suan
+Sandona
+Pailitas
+Santa Rosa
+El Colegio
+San Alberto
+Valencia
+Ituango
+Algeciras
+Abrego
+San Juan de Uraba
+Necoclí
+Purificación
+Agua de Dios
+Quinchía
+Vélez
+Soata
+Puerto Libertador
+La Victoria
+San Pedro de Uraba
+Garagoa
+Majagual
+Marsella
+Natagaima
+Ponedera
+Cumaral
+San Vicente de Chucurí
+Cimitarra
+Sabana de Torres
+Pelaya
+Venadillo
+Candelaria
+Chivolo
+San Pedro
+Dabeiba
+San Antero
+Darién
+Polo Nuevo
+Neira
+Sitionuevo
+Antioquia
+El Bordo
+Amaga
+Puerto Rico
+Dagua
+Ansermanuevo
+Bugalagrande
+San Estanislao
+Santa Barbara
+Supía
+Villanueva
+El Doncello
+Miranda
+Luruaco
+Robles la Paz
+Ovejas
+Samaniego
+El Zulia
+Puebloviejo
+Paipa
+Tibú
+Taraza
+Puerto Wilches
+Orito
+Toro
+Istmina
+Guapí
+Santa Ana
+San Pablo
+La Mesa
+Manatí
+Guarne
+Los Palmitos
+Guaduas
+Guamo
+La Unión
+Piendamó
+San Vicente del Caguan
+Chiriguana
+Viterbo
+Bolívar
+Aguazul
+Belén de Umbría
+Santa Lucía
+El Retén
+Bolívar
+San Martín
+Puerto Santander
+Manzanares
+Andes
+Corinto
+Paz de Ariporo
+Puerto López
+Pacho
+Barbosa
+Chimichagua
+Sonsón
+Barrancas
+Andalucía
+Ciénaga de Oro
+Fresno
+Santuario
+Socorro
+Salamina
+El Copey
+San Benito Abad
+La Jagua Ibirico
+Repelón
+Villanueva
+Malaga
+Zaragoza
+Urrao
+Ríosucio
+La Plata
+Chinú
+Guacarí
+Aguadas
+Galapa
+Chaparral
+Villanueva
+Lérida
+Circasia
+Túquerres
+San Jacinto
+Barbosa
+Ubaté
+Carepa
+Villeta
+Flandes
+Carmen de Viboral
+Sabanagrande
+Sampués
+Mocoa
+Curumaní
+San José del Guaviare
+Yarumal
+Campoalegre
+Ayapel
+Campo de la Cruz
+Mariquita
+Sibaté
+Sucre
+María la Baja
+La Unión
+Fonseca
+Girardota
+Candelaria
+Marinilla
+Bosconia
+Cajica
+Anserma
+Santo Tomas
+Melgar
+Puerto Colombia
+Tierralta
+Ariguaní
+San Juan del César
+Mosquera
+La Tebaida
+Puerto Boyaca
+Tolú
+Roldanillo
+Aracataca
+Palmar de Varela
+Honda
+Líbano
+Zarzal
+Tame
+Garzón
+San Juan Nepomuceno
+Leticia
+Puerto Asís
+Sincé
+Mompós
+Quimbaya
+Granada
+Caicedonia
+San Onofre
+Pivijay
+San Gil
+Saravena
+La Virginia
+Puerto Berrío
+Montelíbano
+Sabaneta
+Villamaría
+Montenegro
+San Marcos
+La Ceja
+Planeta Rica
+El Cerrito
+Corozal
+Segovia
+Lorica
+Acacías
+El Bagre
+Santander de Quilichao
+Sevilla
+Baranoa
+Pradera
+Jamundí
+Chiquinquira
+Florida
+El Carmen de Bolívar
+Chigorodó
+Plato
+Copacabana
+La Estrella
+Arjona
+Madrid
+Turbo
+Agustín Codazzi
+Pamplona
+Puerto Tejada
+Pitalito
+Funza
+El Banco
+Cereté
+Turbaco
+Espinal
+Santa Rosa de Cabal
+Caucasia
+San Andrés
+Los Patios
+Fundación
+Sahagún
+Yopal
+Calarca
+Ríonegro
+Chía
+Villa del Rosario
+Caldas
+Chinchina
+Sabanalarga
+Arauca
+Yumbo
+Aguachica
+Quibdó
+Ipiales
+La Dorada
+Ocaña
+Piedecuesta
+Apartadó
+Tumaco
+Ciénaga
+Fusagasuga
+Zipaquira
+Duitama
+Ríohacha
+Facatativa
+Magangué
+Malambo
+Girón
+Tunja
+Buga
+Sogamoso
+Girardot
+Florencia
+Maicao
+Cartago
+Envigado
+Tulua
+Dos Quebradas
+Barrancabermeja
+Popayan
+Buenaventura
+Palmira
+Floridablanca
+Sincelejo
+Montería
+Itagüí
+Valledupar
+Soacha
+Armenia
+Villavicencio
+Soledad
+Neiva
+Manizales
+Pasto
+Bello
+Ibagué
+Santa Marta
+Pereira
+Bucaramanga
+Cúcuta
+Cartagena
+Barranquilla
+Medellín
+Cali
