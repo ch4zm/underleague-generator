@@ -25,14 +25,11 @@ class GenericsTests(unittest.TestCase):
         i = IterableDataLoader(data)
         self.assertEqual(data, i.data)
 
-    def test_uniform_generator(self):
-        class SampleUniformGenerator(IterableDataLoader, UniformGenerator):
-            pass
-
+    def check_generator(self, GenClass):
         nsamples = 100
 
         data = self.random_data(nsamples)
-        g = SampleUniformGenerator(data=data)
+        g = GenClass(data=data)
 
         sample = g.generate()[0]
         self.assertIn(sample, data)
@@ -40,12 +37,18 @@ class GenericsTests(unittest.TestCase):
         sample = g.generate()[0]
         self.assertIn(sample, data)
 
-        samples = g.generate(size=nsamples//2)
+        samples = g.generate(size=nsamples // 2)
         for sample in samples:
             self.assertIn(sample, data)
 
         with self.assertRaises(Exception):
-            g.generate(size=nsamples+1)
+            g.generate(size=nsamples + 1)
+
+    def test_uniform_generator(self):
+        class SampleUniformGenerator(IterableDataLoader, UniformGenerator):
+            pass
+
+        self.check_generator(SampleUniformGenerator)
 
     def test_base_linear_biased_generator(self):
         class SampleBaseLinearBiasedGenerator(
@@ -53,63 +56,18 @@ class GenericsTests(unittest.TestCase):
         ):
             pass
 
-        nsamples = 100
-
-        data = self.random_data(nsamples)
-        g = SampleBaseLinearBiasedGenerator(data=data)
-
-        sample = g.generate()[0]
-        self.assertIn(sample, data)
-
-        sample = g.generate()[0]
-        self.assertIn(sample, data)
-
-        samples = g.generate(size=nsamples//2)
-        for sample in samples:
-            self.assertIn(sample, data)
-
-        with self.assertRaises(Exception):
-            g.generate(size=nsamples+1)
+        self.check_generator(SampleBaseLinearBiasedGenerator)
 
     def test_linear_biased_generator(self):
         class SampleLinearBiasedGenerator(IterableDataLoader, LinearBiasedGenerator):
             pass
 
-        nsamples = 100
-
-        data = self.random_data(nsamples)
-        g = SampleLinearBiasedGenerator(data=data)
-
-        sample = g.generate()[0]
-        self.assertIn(sample, data)
-
-        sample = g.generate()[0]
-        self.assertIn(sample, data)
-
-        samples = g.generate(size=nsamples//2)
-        for sample in samples:
-            self.assertIn(sample, data)
-
-        with self.assertRaises(Exception):
-            g.generate(size=nsamples+1)
+        self.check_generator(SampleLinearBiasedGenerator)
 
     def test_reversed_linear_biased_generator(self):
-        class SampleReversedLinearBiasedGenerator(IterableDataLoader, ReversedLinearBiasedGenerator):
+        class SampleReversedLinearBiasedGenerator(
+            IterableDataLoader, ReversedLinearBiasedGenerator
+        ):
             pass
 
-        nsamples = 100
-        data = self.random_data(nsamples)
-        g = SampleReversedLinearBiasedGenerator(data=data)
-
-        sample = g.generate()[0]
-        self.assertIn(sample, data)
-
-        sample = g.generate()[0]
-        self.assertIn(sample, data)
-
-        samples = g.generate(size=nsamples//2)
-        for sample in samples:
-            self.assertIn(sample, data)
-
-        with self.assertRaises(Exception):
-            g.generate(size=nsamples+1)
+        self.check_generator(SampleReversedLinearBiasedGenerator)
