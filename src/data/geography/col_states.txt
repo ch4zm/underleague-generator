@@ -1,0 +1,33 @@
+Bogota
+Antioquia
+Valle del Cauca
+Atlántico
+Cundinamarca
+Bolívar
+Santander
+Nariño
+Norte de Santander
+Boyacá
+Magdalena
+Córdoba
+Cauca
+Tolima
+Caldas
+César
+Risaralda
+Huila
+Sucre
+Meta
+Quindío
+La Guajira
+Caquetá
+Chocó
+Putumayo
+Casanare
+Arauca
+Guaviare
+Vichada
+San Andrés y Providencia
+Amazonas
+Guainía
+Vaupés

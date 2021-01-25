@@ -1,0 +1,20 @@
+Lombardy
+Campania
+Lazio
+Sicily
+Veneto
+Piedmont
+Emilia-Romagna
+Apulia
+Tuscany
+Calabria
+Sardinia
+Liguria
+Marche
+Abruzzes
+Friuli-Venezia Giulia
+Trentino-Alto Adige
+Umbria
+Basilicata
+Molise
+Valle d'Aosta

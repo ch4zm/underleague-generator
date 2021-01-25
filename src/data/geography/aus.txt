@@ -1,0 +1,265 @@
+Sydney
+Melbourne
+Brisbane
+Perth
+Adelaide
+Gold Coast
+Newcastle
+Sunshine Coast
+Wollongong
+Hobart
+Cairns
+Geelong
+Townsville
+Albury
+Shoalhaven
+Darwin
+Toowoomba
+Ballarat
+Bendigo
+Mackay
+Mandurah
+Launceston
+Rockhampton
+Coffs Harbour
+Wagga Wagga
+Bundaberg
+Port Macquarie
+Mildura
+Hervey Bay
+Maroochydore-Mooloolaba
+Taree
+Cranbourne
+Caloundra
+Tamworth
+Kalgoorlie-Boulder
+Shepparton-Mooroopna
+Tewantin-Noosa
+Melton
+Queanbeyan
+Wodonga
+Lismore
+Palmerston
+Gladstone
+Orange
+Warrnambool
+Sunbury
+Dubbo
+Bathurst-Orange
+Geraldton
+Bunbury
+Alice Springs
+Traralgon
+Livingstone
+Albany
+Mt. Gambier
+Armidale
+Mt. Isa
+Caboolture
+Goulburn
+Maryborough
+Kwinana
+Burnie
+Kawana Waters
+Craigieburn
+Whyalla
+Echuca-Moama
+Devonport
+Roebourne
+Katoomba-Wentworth Falls
+Richmond-Windsor
+Traralgon
+Cairns Northern Beaches
+Prosperine
+Nerang
+Forster-Tuncurry
+Busselton
+Broken Hill
+Helensvale
+Grafton
+Cessnock
+Gawler
+Deception Bay
+Duaringa
+Griffith
+Buderim
+Nambour
+Crafers-Bridgewater
+Sawtell
+Kingston-Blackmans Bay
+Port Hedland
+Ballina
+Seymour
+Wangaratta
+Stanthorpe
+Singleton
+Bongaree
+Ocean Grove-Barwon Heads
+Raymond Terrace
+Baccus Marsh
+Broome
+Moe-Yallourn
+Sale
+Broadslound
+Horsham
+Bellingen
+Busselton
+Warwick
+Port Pirie
+Buninyong
+Port Augusta
+Victoria Point
+Karratha
+Muswellbrook
+Morwell
+Murray Bridge
+Port Lincoln
+Parkes
+Lithgow
+Gympie
+Bairnsdale
+Kurri Kurri
+Bowen
+Yeppoon
+Pakenham
+Lawson-Hazelbrook
+Batemans Bay
+Bright
+Kiama
+Kerang
+Morayfield
+Innisfail
+Katherine
+Dalby
+Bowral
+Ulverstone
+Charters Towers
+Casino
+Kempsey
+Bland
+Walgett
+Emerald
+Swan Hill
+Heytesbury
+Ulladulla
+Warragul
+Colac
+Ayr
+Mudgee
+Benalla
+Wangi-Rathmines
+Hamilton
+Portland
+Hampden
+Circular Head
+Kingaroy
+Inverell
+Coolum Beach
+Chinchilla
+Mareeba
+Mt. Barker
+Burpengary
+Moree
+Lara
+Murweh
+Deniliquin
+Moranbah
+Mansfield
+Somerville
+Esperance
+Bridgewater-Gagebrook
+Victor Harbor
+Balonne
+Nelson Bay
+Georgetown
+Orbost
+Young
+Clifton Springs
+Carnarvon
+Leeton
+Blackwater
+Gunnedah
+Healesville
+Coonamble
+Narrabri
+Maryborough
+Cobar
+Somerville
+Stawell
+Atherton
+Crib Point
+Nambucca Heads
+Murwillumbah
+Cowra
+Byron Bay
+Moss Vale
+Glenn Innes
+Mittagong
+Torquay
+Australind
+Castlemaine
+Hastings
+Tumut
+Cooma
+Gatton
+Camden Haven
+Kyabram
+Collie
+Biloela
+Ingham
+Leopold
+Ararat
+Wonthaggi
+Longreach
+Lemon Tree Passage
+Northam
+Deloraine
+Lakes Entrance
+Medowie
+Kununurra
+Yarrawonga-Mulwala
+New Norfolk
+Roma
+Wellington
+Bourke
+Corowa
+Humpty Doo-MacMinns Lagoon
+Cootamundra
+Cloncurry
+Scottsdale
+Hay
+Forbes
+Walpeup
+Hinders
+Pavoo
+Central Darling
+Bundall
+Queenstown
+Yulara
+Tennant Creek
+Balranald
+Weipa
+Wannon
+Kakarooc
+Esperance
+Howard Springs
+Nhulunbuy
+Blackall
+Portland
+Winton
+Hamilton
+Quilpie
+Virginia-Bees Creek
+Spring Bay
+King Island
+Burke
+Oatlands
+Glamorgan
+Jabiru
+Tibooburra
+Maningrida
+Port Keats
+Galiwinku
+Beaconsfield
+Alyangula
+Nguiu

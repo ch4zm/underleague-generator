@@ -1,0 +1,438 @@
+Lisbon
+Porto
+Amadora
+Braga
+Setúbal
+Coimbra
+Queluz
+Agualva-Cacém
+Algueirão-Mem Martins
+Vila Nova de Gaia
+Loures
+Rio de Mouro
+Odivelas
+Aveiro
+Amora
+Corroios
+Barreiro
+Rio Tinto
+São Domingos de Rana
+Évora
+Leiria
+Faro
+Sesimbra
+Guimarães
+Ermesinde
+Portimão
+Cascais
+Maia
+Oeiras e São Julião da Barra
+Almada
+Castelo Branco
+Alcabideche
+Alverca do Ribatejo
+Arrentela
+Montijo
+Santarém
+Olhão
+Póvoa de Varzim
+Senhora da Hora
+Marinha Grande
+Póvoa de Santa Iria
+Guarda
+Matosinhos
+Gondomar
+Aguas Santas
+Vila do Conde
+Caldas da Rainha
+Canidelo
+Viseu
+Sintra
+Paço de Arcos
+São Mamede de Infesta
+Torres Vedras
+Oliveira do Douro
+Fânzeres
+Beja
+Baixa da Banheira
+Charneca de Caparica
+Carnaxide
+Pinhal Novo
+Estoril
+Pontinha
+Loulé
+São João da Madeira
+Bougado
+Bragança
+Valongo
+Caparica
+Belas
+Linda-a-Velha
+Laranjeiro
+Carcavelos
+Camarate
+Entroncamento
+Cova da Piedade
+Custóias
+Algés
+Tomar
+Barcelos
+Pedroso
+Vilar de Andorinho
+São João da Talha
+Lagos
+Quarteira
+Santa Iria de Azoia
+Ovar
+Vila Franca de Xira
+Leça da Palmeira
+Moita
+Sacavém
+Covilhã
+Ramada
+Pombal
+Ílhavo
+Parede
+São Pedro da Cova
+Vila Real
+Palmela
+Fafe
+Feira
+Leça do Bailio
+Vialonga
+Albufeira
+Baguim do Monte
+Peniche
+Portalegre
+Viana do Castelo
+Póvoa de Santo Adrião
+Gafanha da Nazaré
+Vilar do Paraíso
+Torres Novas
+Alfena
+Valbom
+Canelas
+Costa da Caparica
+Samora Correia
+Santo Tirso
+Tavira
+Porto Salvo
+Abrantes
+Arcozelo
+Alhos Vedros
+Chaves
+Montemor-o-Novo
+Sines
+Ourém
+Pedrouços
+Perafita
+Mirandela
+Gueifães
+Mafra
+Aldeia de Paio Pires
+Rio Maior
+Figueira da Foz
+Barcarena
+Agueda
+Fatima
+Oliveira de Azeméis
+São Félix da Marinha
+Avintes
+Vila Real de Santo António
+Almeirim
+Rebordosa
+Moscavide
+Lousã
+Esmoriz
+Calendario
+Moreira
+Vendas Novas
+Santo André
+São Bras de Alportel
+Sobreda
+Santo António da Charneca
+Vila de Cucujães
+Ponte de Sor
+Caneças
+Anta
+Lamego
+Silves
+Grijó
+Forte da Casa
+Vale da Amoreira
+Grândola
+Fernão Ferro
+Unhos
+Gulpilhares
+Margaride
+Santo André
+Cartaxo
+A Ver-o-Mar
+São João Das Lampas
+Carregado
+Caldas de Vizela
+Selho
+Lordelo
+Meadela
+Elvas
+Almancil
+Maceira
+Fundão
+Alcochete
+Lavra
+Alenquer
+Lourosa
+Madalena
+São João de Ver
+Espinho
+Rio de Loba
+Vila Nova de Famalicão
+Famões
+Moura
+Estremoz
+Abraveses
+Valadares
+Guifões
+Alcacer do Sal
+Lourinhã
+Quinta do Anjo
+Nazaré
+Benavente
+Campo
+Mangualde
+Queijas
+Coruche
+Argoncilhe
+Ribeirão
+Fiães
+Coronado
+Estômbar
+Tavarede
+Benedita
+Moncarapacho
+Aves
+Soure
+Bobadela
+São Bartolomeu de Messines
+Castelões de Cepeda
+Atouguia da Baleia
+Almargem do Bispo
+Campo Maior
+Beduído
+Darque
+Penafiel
+Serzedo
+Freamunde
+Albergaria-A-Velha
+Alpiarça
+Batalha
+Colares
+Ferreiros
+Joane
+Buarcos
+Miranda do Corvo
+Santiago do Cacém
+Sande
+Pragal
+Mira
+Castanheira do Ribatejo
+São Pedro de Castelões
+Ericeira
+Cantanhede
+Aradas
+Mozelos
+Alhandra
+Reguengos de Monsaraz
+Silvalde
+Apelação
+Azambuja
+Oiã
+Seia
+Jovim
+Ponte
+Valega
+Silveira
+Arrifana
+Amarante
+Paços de Ferreira
+São João
+Arcos
+Sobrado
+Negrelos
+Cruz Quebrada-Dafundo
+Fazendas de Almeirim
+A dos Cunhados
+Serpa
+Macedo de Cavaleiros
+Avanca
+Cacilhas
+Sandim
+Foz do Sousa
+Lagoa
+Perozinho
+Oliveira do Bairro
+Santa Cruz do Bispo
+Oliveira
+Arruda dos Vinhos
+Canedo
+Aljubarrota
+Marinhas
+Lobão
+Gandra
+Porto de Mós
+Eixo
+Olival Basto
+Milharado
+Arazede
+Bombarral
+Vila Nova da Telha
+Redondo
+Odemira
+Real
+Vieira de Leiria
+Marinhais
+Caldelas
+Olival
+Tortosendo
+Sertã
+Branca
+Santa Maria de Lamas
+Montenegro
+Moreira de Cónegos
+Trafaria
+São Roque
+Barrosas
+Antas
+Vilela
+Poiares
+Pataias
+Vila Viçosa
+Riachos
+Urgezes
+Monchique
+Couto
+Galegos
+Aljustrel
+Nogueira da Regedoura
+Gemunde
+Alvor
+Caranguejeira
+Ventosa
+Salvaterra de Magos
+Ferreiras
+Alpendurada e Matos
+Castro Marim
+Louriçal
+Valongo do Vouga
+Vale
+Alcobaça
+Brito
+Peso da Régua
+Refojos de Basto
+Alcains
+Alcanede
+Póvoa de Lanhoso
+Vila Praia de Âncora
+Oliveirinha
+Venda do Pinheiro
+São Teotónio
+Baltar
+Souto
+Godim
+Gafanha da Encarnação
+Macieira de Cambra
+Ronfe
+Amor
+Castro Verde
+Recarei
+Arões
+Nogueira
+Rio Meão
+Pêro Pinheiro
+São João dos Montes
+Malveira
+Castro Daire
+Évora de Alcobaça
+Oliveira do Hospital
+Teixoso
+Terrugem
+Ferreira do Alentejo
+Lustosa
+Telões
+Paços de Brandão
+Areosa
+Aveiras de Cima
+Bucelas
+Condeixa-A-Nova
+Proença-A-Nova
+Borba
+Figueiró
+Valpaços
+Lordelo
+Arvore
+Campo
+Vagos
+Aguçadoura
+Vila de Prado
+Sangalhos
+Pampilhosa
+Carvalhosa
+Boliqueime
+Monte Redondo
+Sobralinho
+São Pedro da Cadeira
+Mealhada
+Pontével
+Turquel
+Meinedo
+Alcanena
+Santa Catarina da Serra
+Apúlia
+Tondela
+Vila Nova de Milfontes
+Vila Verde
+Aguada de Cima
+Milheirós
+Santiago da Riba-Ul
+Milheirós de Poiares
+Arganil
+Frazão
+Vila Chã
+Monte Gordo
+Poceirão
+Sobreira
+Ferreira
+Nelas
+Vilarinho
+Guia
+Pardilhó
+Lavos
+Lorvão
+Santo Antão do Tojal
+Salreu
+Cortegaça
+Souto da Carpalhosa
+Aljezur
+Foros de Salvaterra
+Santa Barbara de Nexe
+São Pedro do Sul
+Vizela
+Seroa
+Satão
+Armação de Pêra
+Serzedelo
+Vila Frescainha
+Mogadouro
+Alcoentre
+Mira de Aire
+Candoso
+Adaúfe
+Golegã
+Tramagal
+Cercal
+Alhadas
+Alferrarede
+Luz
+Caia e São Pedro
+Castanheira de Pêra
+São Miguel do Rio Torto

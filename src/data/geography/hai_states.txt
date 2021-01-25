@@ -1,0 +1,10 @@
+Artibonite
+GrandAnse
+Nord-Ouest
+Nord-Est
+Sud-Est
+Centre
+Nord
+Ouest
+Sud
+Nippes

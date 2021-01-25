@@ -1,0 +1,31 @@
+Henan
+Shandong
+Sichuan
+Guangdong
+Hebei
+Jiangsu
+Anhui
+Hunan
+Hubei
+Jiangxi
+Zhejiang
+Guangxi Zhuang
+Liaoning
+Yunnan
+Heilongjiang
+Guizhou
+Shaanxi
+Fujian
+Shanxi
+Chongqing
+Jilin
+Gansu
+Inner Mongolia
+Xinjiang Uygur
+Shanghai
+Beijing
+Tianjin
+Hainan
+Ningxia Hui
+Qinghai
+Tibet

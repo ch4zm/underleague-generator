@@ -1,0 +1,513 @@
+Surabaya
+Medan
+Bandung
+Bekasi
+Tangerang
+Makasar
+Semarang
+Palembang
+Depok
+Padang
+Bandar Lampung
+Bogor
+Malang
+Pekan Baru
+Yogyakarta
+Banjarmasin
+Surakarta
+Pontianak
+Manado
+Balikpapan
+Jambi
+Denpasar
+Cimahi
+Ambon
+Samarinda
+Pacet
+Mataram
+Tambun
+Percut Sei Tuan
+Bengkulu
+Cilegon
+Jember
+Palu
+Kupang
+Batam
+Sukabumi
+Tasikmalaya
+Pekalongan
+Cirebon
+Banda Aceh
+Tegal
+Kendari
+Kediri
+Cibadak
+Binjai
+Majalaya
+Purwokerto
+Purwakarta
+Cilacap
+Loa Janan
+Pematang Siantar
+Ciputat
+Cibungbulang
+Ciampea
+Sumedang
+Cileungsi
+Rengasdengklok
+Karawang
+Cibitung
+Parung
+Leuwiliang
+Curug
+Pondok Aren
+Cibinong
+Brebes
+Madiun
+Pemalang
+Lembang
+Probolinggo
+Taman
+Palangka Raya
+Pamulang
+Cikupa
+Salatiga
+Bojong Gede
+Plumbon
+Banjaran
+Serang
+Lawang
+Pasuruan
+Cicalengka
+Sunggal
+Tanjung Morawa
+Sukaraja
+Perbaungan
+Pasarkemis
+Ciomas
+Rancaekek
+Soreang
+Purwodadi
+Metro
+Hamparan Perak
+Lubuk Linggau
+Astanajapura
+Gunung Putri
+Waru
+Cianjur
+Cikampek
+Kebumen
+Dumai
+Tanjung Balai
+Cisaat
+Sidoarjo
+Weru
+Karang Tengah
+Bitung
+Baleendah
+Jaya Pura
+Baturaja
+Adiwerna
+Singaraja
+Blitar
+Martapura
+Balaraja
+Kisaran
+Subang
+Teluknaga
+Ungaran
+Rangkasbitung
+Taman
+Klaten
+Jombang
+Paseh
+Pangkal Pinang
+Sorong
+Tanjung Pinang
+Padalarang
+Babakan
+Pringsewu
+Ciamis
+Lumajang
+Indramayu
+Pati
+Garut
+Payakumbuh
+Sukaraja
+Sepatan
+Tebingtinggi
+Kedungwuni
+Batang
+Pamanukan
+Ciparay
+Sawangan
+Pare Pare
+Pangkah
+Mojokerto
+Ketapang
+Cileunyi
+Magelang
+Kemang
+Kresek
+Citeureup
+Banyuwangi
+Tanjung Balai-Meral
+Cikarang
+Arjawinangun
+Tanete
+Purworejo
+Depok
+Ngamprah
+Cisarua
+Prabumulih
+Rantauprapat
+Belawan
+Singkawang
+Ternate
+Bontang
+Grogol
+Padang Sidempuan
+Talang
+Bukit Tinggi
+Ciledug
+Dukuhturi
+Tarakan
+Cirebon Utara
+Sungaipenuh
+Sumber
+Palopo
+Wonosobo
+Palimanan
+Pamekasan
+Pandegelang
+Tembilahan
+Padang Pariaman
+Kudus
+Caringan
+Wiradesa
+Lhokseumawe
+Cicuruk
+Kartosura
+Klangenan
+Selatpanjang
+Majalengka
+Pallangga
+Lubuk Pakam
+Bojonegoro
+Kasihan
+Sombaopu
+Jati
+Cikeruh
+Sumenep
+Ambarawa
+Margaasih
+Margahayu
+Galesong
+Bau Bau
+Mobagu
+Bone
+Dayeuh Kolot
+Banguntapan
+Kosambi
+Kedungwaru
+Serpong
+Magetan
+Sibolga
+Genteng
+Kaliwungu
+Gedangan
+Ponorogo
+Kembaran
+Cirebon Barat
+Ciranjang
+Kadungora
+Ende
+Tarogong
+Tuban
+Kota Pinang
+Kebomas
+Karangsembung
+Dramaga
+Tarub
+Batu
+Sungai Liat
+Peterukan
+Gresik
+Sewon
+Jatibarang
+Kuningan
+Sragen
+Pagar Alam
+Mertoyudan
+Bondowoso
+Bajeng
+Nganjuk
+Ciawi
+Mlati
+Bima
+Mojolaban
+Sukaraja
+Gamping
+Sampit
+Lahat
+Gadingrejo
+Tulungagung
+Muncar
+Tulangan
+Pangkajene
+Candi
+Godean
+Wonosari
+Bangil
+Tanjung Pandan
+Aberpura
+Bangkalan
+Bontonompo
+Cimanggung
+Slawi
+Pecangakan
+Kertosono
+Duri
+Barabai
+Labu Api
+Boyolali
+Singkang
+Banggae
+Lamongan
+Baki
+Bantul
+Weleri
+Polewali
+Jatiwangi
+Bae
+Singosari
+Dukuhwaru
+Kabanjahe
+Purbalingga
+Pare
+Kersana
+Balaipungut
+Tempe
+Mendahara
+Sleman
+Pandak
+Amuntai
+Besuki
+Wedi
+Kota Baru
+Cepu
+Tirto
+Cirebon Selatan
+Porong
+Langsa
+Jepara
+Bumiayu
+Sampang
+Manokwari
+Tanjung Agung
+Cibeureum
+Sumbawa
+Terbanggi Besar
+Kepanjen
+Blora
+Comal
+Situbondo
+Karanganom
+Kendal
+Kawalu
+Mundu
+Cidahu
+Jatiroto
+Kauman
+Labuhan Deli
+Tanjung Redeb
+Jetis
+Gampengrejo
+Merauke
+Gatak
+Kaliwungu
+Singaparna
+Waingapu
+Banyumas
+Solok
+Pameungpeuk
+Buduran
+Kramat
+Luwuk
+Sungairaya
+Amahai
+Balung
+Maumere
+Poso
+Curup
+Tidore
+Purworejo Klampok
+Kramat Mulya
+Watang Sawitto
+Prambanan
+Muntilan
+Bambanglipuro
+Ngawen
+Ketanggungan
+Baolan
+Rembang
+Nabire
+Gebog
+Ujung Bulu
+Padang Panjang
+Kencong
+Palabuhanratu
+Panji
+Katobu
+Purwodadi
+Baturaden
+Kota Bumi
+Temanggung
+Diwek
+Bengkalis
+Kijang
+Biak
+Sinjai
+Rantepao
+Dewantara
+Juwana
+Rajapolah
+Tual
+Wuradesa
+Majenang
+Buaran
+Wonogiri
+Krian
+Wonopringgo
+Pangkalanbuun
+Majene
+Jeluko
+Batang Kuis
+Banjar
+Simpang
+Kanigoro
+Mojosari
+Srono
+Lemahabang
+Tanggul
+Atambua
+Kualakapuas
+Wengon
+Sumber Pucung
+Praya
+Meulaboh
+Karanganyar
+Kalikotes
+Ruteng
+Manggar
+Ngaglik
+Pandaan
+Pemangkat
+Toboali-Rias
+Kualatungka
+Tabanan
+Jamanis
+Lebaksiu
+Labuhan
+Mlonggo
+Tondano
+Negara
+Tanggulangin
+Maritengngae
+Jaten
+Boyolangu
+Gombong
+Karangasem
+Bandar
+Kutoarjo
+Karangampel
+Gempol
+Panarukan
+Sidareja
+Pakisaji
+Selogiri
+Kuta
+Wlingi
+Srandakan
+Kefamenanu
+Singojuruh
+Batu Jajar
+Gedek
+Trenggalek
+Lasem
+Jatibarang
+Pedan
+Ceper
+Randudongkal
+Balapulang
+Ubud
+Kraksaan
+Jogonalan
+Mranggen
+Sindang
+Deli Tua
+Klungkung
+Margasari
+Sijunjung
+Soe
+Sei Rampah
+Tomohon
+Ambulu
+Wonosari
+Bulakamba
+Demak
+Mojobo
+Paciran
+Babat
+Kadipaten
+Stabat
+Manyar
+Driyorejo
+Mentok
+Tempeh
+Tayu
+Kelari
+Ngunut
+Colomandu
+Wanaraja
+Welahan
+Wanasari
+Bireun
+Pangkalanbrandan
+Sooko
+Teluk Nibung
+Plered
+Tanjung Tiram
+Gunung Stoli
+Gondang
+Sabang
+Delanggu
+Mayong
+Prigen
+Pundong
+Kalianget
+Parakan
+Tanjunganom
+Ngemplak
+Trucuk
+Mojoagung
+Seyegan
+Kroya
+Dampit
+Wates
+Ngoro
+Peterongan
+Gambiran
+Kamal
+Gondanglegi
+Ngawi
+Kebonarum
+Kuala Simpang
+Ngada Bawa
+Manis Mata
+Obaa
+Sigli
+Binongko
+Parongpong
+Sembakung
+Pulau Sembilan

@@ -1,0 +1,16 @@
+Slaskie
+Mazowieckie
+Dolnoslaskie
+Wielkopolskie
+Lodzkie
+Malopolskie
+Pomorskie
+Kujawsko-Pomorskie
+Zachodnio-Pomorskie
+Lubelskie
+Warminsko-Mazurskie
+Podkarpackie
+Podlaskie
+Lubuskie
+Swietokrzyskie
+Opolskie

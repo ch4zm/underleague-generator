@@ -1,0 +1,1181 @@
+Toronto
+Montreal
+Calgary
+Ottawa
+Edmonton
+Mississauga
+Winnipeg
+Vancouver
+Quebec City
+Hamilton
+Surrey
+Brampton
+Halifax
+Laval
+London
+Markham
+Gatineau
+Vaughan
+Longueuil
+Burnaby
+Windsor
+Kitchener
+Saskatoon
+Richmond
+Regina
+Oakville
+Burlington
+Richmond Hill
+Sudbury
+Sherbrooke
+Saguenay
+Oshawa
+Abbotsford
+St. Catharines
+Lévis
+Barrie
+Coquitlam
+Trois-Rivières
+Cambridge
+Kelowna
+Kingston
+Guelph
+Whitby
+Saanich
+Thunder Bay
+Chatham-Kent
+Thornhill
+Langley
+Cape Breton Regional Municipality
+St. John's
+Delta
+Waterloo
+Terrebonne
+Brantford
+Ajax
+Pickering
+Saint-Jean-sur-Richelieu
+Kamloops
+North Vancouver
+Nanaimo
+Red Deer
+Strathcona
+Niagara Falls
+Victoria
+Chilliwack
+Clarington
+Repentigny
+Maple Ridge
+Sault Ste. Marie
+Peterborough
+Lethbridge
+Kawartha Lakes
+Newmarket
+Prince George
+Sarnia
+Brossard
+Saint John
+Drummondville
+New Westminster
+Dartmouth
+Sherwood Park
+Moncton
+Saint-Jérôme
+Norfolk County
+Fort McMurray
+St. Albert
+Caledon
+Medicine Hat
+Port Coquitlam
+Halton Hills
+North Bay
+Milton
+Shawinigan
+Saint-Hyacinthe
+Wood Buffalo
+Fredericton
+Welland
+Dollard-des-Ormeaux
+Belleville
+Granby
+Aurora
+Grande Prairie
+Blainville
+Cornwall
+Georgina
+Haldimand County
+Saint-Eustache
+West Vancouver
+Beloeil
+Châteauguay
+Quinte West
+Mascouche
+Charlottetown
+Mirabel
+Boucherville
+St. Thomas
+Salaberry-de-Valleyfield
+Rimouski
+Vernon
+Mission
+County of Brant
+Joliette
+Prince Albert
+Lakeshore
+Victoriaville
+Bowmanville
+Rocky View County
+Woodstock
+Sorel-Tracy
+Vaudreuil-Dorion
+Sackville
+Port Moody
+Timmins
+Sydney
+Orangeville
+Georgetown
+Moose Jaw
+Penticton
+Val d'Or
+Midland
+Côte Saint-Luc
+Campbell River
+West Kelowna
+Leamington
+Stratford
+Orillia
+Sainte-Julie
+Alma
+Langford
+North Cowichan
+Lloydminster
+Boisbriand
+Brandon
+Sainte-Thérèse
+Chambly
+Val-d'Or
+Grimsby
+Cole Harbour
+Courtice
+Saint-Constant
+Mount Pearl
+Nanticoke
+Airdrie
+Courtenay
+Rouyn-Noranda
+Brockville
+Tecumseh
+La Prairie
+Dieppe
+Clarence-Rockland
+Owen Sound
+Sept-Îles
+Lincoln
+East Gwillimbury
+Baie-Comeau
+East Hants
+Thetford Mines
+Fort St. John
+Bolton
+Saint-Lambert
+Glace Bay
+Saint-Georges
+Buckingham
+Kingsville
+Varennes
+Truro
+Kirkland
+New Glasgow
+Oro-Medonte
+L'Assomption
+Westmount
+Candiac
+Whitehorse
+Beaconsfield
+Mount Royal
+North Battleford
+Cranbrook
+White Rock
+Saint-Lazare
+Fort Saskatchewan
+Bradford
+Corner Brook
+Bedford
+Port Colborne
+Springwater
+Mont-Saint-Hilaire
+Bathurst
+Saint-Augustin-de-Desmaures
+Miramichi
+South Frontenac
+Cobourg
+Oak Bay
+Lindsay
+Edmundston
+Thorold
+Spruce Grove
+Port Alberni
+Pitt Meadows
+Paradise
+Fergus
+Deux-Montagnes
+Salmon Arm
+Saint-Lin-Laurentides
+Valley East
+Squamish
+Pelham
+Conception Bay South
+Selwyn
+Sainte-Catherine
+Saint-Basile-le-Grand
+Ft. St. John
+Middlesex Centre
+Cochrane
+Loyalist
+Tracadie-Sheila
+Colwood
+Fort Erie
+Central Saanich
+Yellowknife
+Collingwood
+Sainte-Marthe-sur-le-Lac
+Camrose
+Leduc
+Pembroke
+Magog
+Sydney Mines
+Port-Alfred-Bagotville
+Tillsonburg
+Russell
+Rivière-du-Loup
+Yorkton
+Tilsonburg
+Okotoks
+Summerside
+Simcoe
+Swift Current
+Sainte-Anne-des-Plaines
+Rosemère
+West Nipissing
+Cold Lake
+Bay Roberts
+Clearview
+Comox
+Strathroy
+Chatham-Douglastown
+Saint-Charles-Borromée
+Powell River
+South Glengarry
+Kenora
+Thames Centre
+Portage la Prairie
+Dolbeau
+Hauterive
+Brooks
+Kentville
+South Stormont
+Les Îles de la Madeleine
+Elliot Lake
+Prince Rupert
+Thompson
+Bécancour
+Grand Centre
+Severn
+Canmore
+Hawkesbury
+Grand Falls-Windsor
+Campbellton
+Beauharnois
+Parksville
+Aldergrove
+Ingersoll
+Matane
+Port Hope
+Lake Country
+Whitchurch-Stouffville
+The Nation
+Ohsweken
+Mercier
+Sidney
+Fall River
+Terrace
+Amherstburg
+Wetaskiwin
+Petawawa
+North Dundas
+North Saanich
+New Waterford
+Cowansville
+Williams Lake
+Dawson Creek
+South Dundas
+Wallaceburg
+Lambton Shores
+Les Coteaux
+Notre-Dame-de-l'Île-Perrot
+Smiths Falls
+Sylvan Lake
+Saltspring Island
+Paris
+Amos
+Baie-Comeau
+Temiskaming Shores
+Labrador City
+Walden
+Angus-Borden
+Nelson
+Alliston
+Lacombe
+Strathmore
+Quesnel
+Estevan
+Hinton
+Cantley
+Saint-Sauveur
+High River
+Whistler
+Carleton Place
+Tay
+Selkirk
+Montmagny
+Arnprior
+Steinbach
+Lachute
+Beamsville
+La Tuque
+Bois-des-Filion
+Coldstream
+View Royal
+Weyburn
+Amherst
+Roberval
+Kapuskasing
+Penetanguishene
+Caledonia
+East St. Paul
+Uxbridge
+Oromocto
+Stony Plain
+West Perth
+Notre-Dame-des-Prairies
+Gander
+Whitecourt
+Lavaltrie
+Sainte-Marie
+Elmira
+Otterburn Park
+Dauphin
+Kitimat
+Winkler
+Bracebridge
+Acton
+Napanee
+Taber
+Morinville
+Saint-Félicien
+Saint-Hippolyte
+Bridgewater
+Goderich
+Renfrew
+Donnacona
+Kahnawake
+Edson
+Huntsville
+Fort Frances
+Ladysmith
+Innisfail
+Castlegar
+Kirkland Lake
+Trail
+Slave Lake
+Port Perry
+La Pêche
+Chibougamau
+Porcupine
+Maskwacis
+Wasaga Beach
+Revelstoke
+Aylmer
+Banff
+Yarmouth
+Delson
+New Hamburg
+Essex
+Beaumont
+Innisfil
+Lac-Beauport
+Hanover
+La Sarre
+Asbestos
+Plessisville
+Merritt
+Port Elgin
+Lively
+Crystal Beach
+Bluewater
+Puslinch
+Coaticook
+Edwardsburgh/Cardinal
+Olds
+Dryden
+Kingston-Greenwood
+Gibsons
+Carbonear
+Douro-Dummer
+Huron-Kinloss
+North Stormont
+Kincardine
+Sutton
+Ponoka
+St. Marys
+Muskoka Lakes
+Drumheller
+Rocky Mountain House
+Kimberley
+Perth
+Parry Sound
+Pointe-Calumet
+Morden
+Coaldale
+Sturgeon Falls
+Summerland
+Stephenville
+Listowel
+Happy Valley-Goose Bay
+Mont-Laurier
+Sooke
+Mont-Joli
+Iqaluit
+Brooklin
+Drayton Valley
+Farnham
+The Pas
+Dunnville
+Bonnyville
+Flin Flon
+Sechelt
+Dysart
+Charlemagne
+Port-Cartier
+Gravenhurst
+Port Dover
+Louiseville
+Sainte-Agathe-des-Monts
+Vegreville
+Grand Falls
+Sainte-Anne-des-Monts
+Marieville
+Crowsnest Pass
+Stettler
+Sainte-Adèle
+Richelieu
+Gananoque
+Petrolia
+Smithers
+Melfort
+Windsor
+Wainwright
+Peace River
+St. Paul
+Beaupré
+Nicolet
+Walkerton
+Devon
+Brighton
+Acton Vale
+Hudson
+Notre-Dame-du-Mont-Carmel
+Amqui
+Tottenham
+Westlock
+Blenheim
+Woodstock
+Fernie
+Antigonish
+Pont-Rouge
+Rawdon
+Mackenzie
+Spallumcheen
+Duncan
+Almonte
+King City
+North Huron
+Saint-Sauveur-des-Monts
+Tilbury
+Mt. Forest
+Humboldt
+Picton
+Meaford
+Creston
+Metchosin
+Norway House
+Hearst
+Shediac
+Embrun
+Exeter
+Espanola
+Red Lake
+Lac-Mégantic
+Oliver
+Port Hardy
+Marathon
+Grand Bank
+Caraquet
+Hope
+L'Épiphanie
+Marystown
+St. Stephen
+Baie-Saint-Paul
+Beauceville
+Prescott
+La Malbaie
+Barrhead
+Mitchell
+Berthierville
+Cochrane
+Shelburne
+Dallas
+Onaping-Levack
+Osoyoos
+Deep River
+Madawaska Valley
+Meadow Lake
+Melville
+Armstrong
+Kindersley
+New Maryland
+Maniwaki
+Iroquois Falls
+Kemptville
+Delhi
+La Pocatière
+Channel-Port aux Basques
+Saint-Étienne-des-Grès
+Grand Forks
+Ft. Nelson
+Swan River
+Saint-Rémi
+Stonewall
+Deer Lake
+Vermilion
+Tyendinaga
+Dalhousie
+Didsbury
+Martensville
+Battleford
+Waterloo
+Gabriola Island
+Sussex
+Mississauga Beach
+Princeville
+Golden
+Beeton
+Verchères
+Grande Cache
+Saint-Jovite
+Goulds
+Nipawin
+Perth South
+Saint-Augustin
+Springhill
+Jasper
+Campbellford
+Bancroft
+Callander
+Windsor
+Pincher Creek
+Ayr
+Claresholm
+Fruitvale
+Atikokan
+Pictou
+Sioux Lookout
+Malartic
+Trois-Pistoles
+Nobleton
+Capreol
+Black Diamond
+Bonavista
+Cardston
+East Angus
+High Level
+Rossland
+Altona
+Chestermere
+Contrecoeur
+Forestville
+Saint-Raymond
+Port Hawkesbury
+Alexandria
+Southampton
+Ridgetown
+Lake Echo
+Chisasibi
+Wolfville
+Smithville
+Saint-Canut
+Richmond
+Clarenville-Shoal Harbour
+Richmond
+Wawa
+Bowen Island
+Cumberland
+Saint-Josephe-de-Beauce
+Raymond
+Warwick
+Dunville
+Gaspé
+Percé
+Fairview
+Clinton
+Bishop's Falls
+Lebel-sur-Quévillon
+Warman
+Beaverton
+Virden
+Senneterre
+Sainte-Julienne
+Paspébiac
+Blackfalds
+Cowichan Valley
+Saint-Césaire
+Saint-Félix-de-Valois
+Neepawa
+Hanna
+Enfield
+Napierville
+Cartier
+Opaskwayak Cree Nation
+Manitouwadge
+Harrow
+Torbay
+Saint-Prosper
+Sables-Spanish Rivers
+Casselman
+La Ronge
+Ft. Macleod
+Erin
+Three Hills
+Wingham
+Saint-Pie
+Waterford
+Hay River
+Inuvik
+Forest
+Bobcaygeon
+Roberts Creek
+Chapleau
+Saint-Jacques
+Blind River
+Fermont
+Havre-Saint-Pierre
+Carman
+Rockwood
+Botwood
+Lewisporte
+Saint-Bruno
+Lac la Biche
+Clermont
+Fort-Coulonge
+Saint-Gabriel
+Sackville
+Lakefield
+Beausejour
+Houston
+High Prairie
+Invermere
+Lake Cowichan
+Huntingdon
+Chandler
+Tisdale
+Durham
+Seaforth
+Port McNeill
+Ville-Marie
+Enderby
+Cedar
+Gibbons
+Liverpool
+Shippagan
+Springdale
+Mt. Albert
+Saint-Prime
+Bifrost
+Sicamous
+Morrisburg
+Normandin
+Dresden
+Headingley
+Chemainus
+Osgoode
+Bedford
+Cabano
+Princeton
+Portneuf
+Disraeli
+Errington
+Port Stanley
+Palmerston
+Tavistock
+Fort Langley
+Norwich
+St. George
+Hampton
+Burns Lake
+Frankford
+Hagersville
+Brownsburg
+Chetwynd
+Elkford
+Lillooet
+Vineland
+Saint-Éphrem-de-Beauce
+Rivière-au-Renard
+Sainte-Claire
+Winchester
+Grimshaw
+Athabasca
+Sainte-Martine
+Kent
+Minnedosa
+Rigaud
+Crossfield
+Pender Island
+St. Anthony
+Wiarton
+Thurso
+Lunenburg
+Chase
+Saint-Pascal
+Constance Bay
+Fox Creek
+Saint-Tite
+Valcourt
+Ange-Gardien
+Mattawa
+Laurier-Station
+Arthur
+Bridgenorth-Chemong Park Area
+East Broughton
+Fort St. James
+Sundre
+Carstairs
+Killarney
+Wabana
+Saint-Marc-des-Carrières
+Geraldton
+Mt. Brydges
+Rankin Inlet
+Métabetchouan
+Wyoming
+Assiniboia
+Arviat
+Lac-Etchemin
+Rosetown
+Colchester
+Léry
+Carlisle
+Jarvis
+Elmvale
+Redwater
+Glencoe
+Cornwall
+Berwick
+Stirling
+Sparwood
+Dégelis
+Lac-Lapierre
+Crabtree
+Pasadena
+Saint-Charles-de-Bellechasse
+Rimbey
+Beaverlodge
+New Richmond
+Mashteuiatsh
+St. Quentin
+Moosomin
+Sainte-Madeleine
+Esterhazy
+Logan Lake
+Pierreville
+Linière
+Cramahe
+Harriston
+L'Original
+Saint-Germain-de-Grantham
+Millet
+Vankleek Hill
+Garden River First Nation
+Lucan
+Maple Creek
+Cannington
+Highlands
+Ferme-Neuve
+Gentilly
+Saint-Martin
+Petit Rocher
+Unity
+Blairmore
+Magrath
+Anmore
+Caledon East
+Dundalk
+Provost
+Oakbank
+Sainte-Anne-de-la-Pérade
+Biggar
+Springfield
+Moose Factory
+Terrace Bay
+Grand Bend
+Canora
+Wellington
+Digby
+Saint-Agapit
+Les Escoumins
+Fort Qu'Appelle
+Point Edward
+Causapscal
+Wheatley
+Saint-Apollinaire
+L'Annonciation
+Saint-Alexis-des-Monts
+Saint-Ambroise
+Gimli
+Holyrood
+Montague
+Chute-aux-Outardes
+Naramata
+Calmar
+Niverville
+Outlook
+Chesley
+Elsipogtog First Nation
+Fenelon Falls
+Thornbury
+Saint-Polycarpe
+Matagami
+Saint-Esprit
+Central Manitoulin
+Château-Richer
+Valleyview
+Petit-Rocher
+Burford
+Shelburne
+Nanton
+Saint-Jean-Port-Joli
+Saint-Josephe-de-Lanoraie
+Belmont
+Saint-Damien-de-Buckland
+Tofield
+Roblin
+Swan Hills
+Harbour Breton
+Deseronto
+Bouctouche
+Salisbury
+100 Mile House
+Saint-Mathieu
+Kamsack
+Tofino
+Baker Lake
+Saint-André-Avellin
+Saint-Anselme
+Saint-Gédéon
+Grand Valley
+Témiscamingue
+Vulcan
+Parkhill
+Perth-Andover
+Longlac
+Thamesford
+Mistissini
+Tumbler Ridge
+Saint-Blaise-sur-Richelieu
+Saint-Michel-des-Saints
+Price
+Madoc
+Chapais
+Penhold
+White City
+St. Andrews
+Milverton
+Ashcroft
+Wynyard
+Bow Island
+Picture Butte
+Lamont
+Cobble Hill
+Chambord
+Stony Mountain
+Saint-Narcisse
+Danville
+Orono
+Wellesley
+L'Ascension-de-Notre-Seigneur
+Souris
+Norwood
+Caledon
+Sexsmith
+Saint-Honoré
+Morris
+Saint-Clet
+Cayuga
+Warfield
+Pilot Butte
+Moosonee
+Watford
+Nakusp
+Sayabec
+Metcalfe
+Hébertville
+Watrous
+Cap-aux-Meules
+Englehart
+Saint-Donat-de-Montcalm
+Florence
+Middleton
+Marmora
+Hudson Bay
+Waywayseecappo First Nation
+Shaunavon
+Little Current
+Betsiamites
+Mayerthorpe
+Pemberton
+Indian Head
+Inverness
+Sainte-Sophie
+Nipigon
+Mille-Isles
+Lyster
+Burgeo
+Kars
+Tweed
+Lumby
+Gambo
+Igloolik
+Bon Accord
+Russell
+Shawville
+Drayton
+Papineauville
+Chesterville
+Carberry
+Ste. Anne
+Wembley
+Rosthern
+Cookshire
+Ucluelet
+Ormstown
+Pinawa
+Macamic
+Boissevain
+Coalhurst
+Millbrook
+Notre-Dame-du-Lac
+St. George
+West Lorne
+Brocket
+Cookstown
+Chester
+Lacolle
+Markdale
+Elk Point
+Grande-Rivière
+Dalmeny
+Clairmont
+La Crète
+Bonaventure
+Kingsey Falls
+Notre-Dame-du-Bon-Conseil
+Lumsden
+Cambridge Bay
+Parrsboro
+Debert
+Harrison Hot Springs
+Cap-Chat
+Palmarolle
+McAdam
+Thessalon
+Macdonald, Meredith and Aberdeen Additional
+Henryville
+Vanderhoof
+Saint-Odilon-de-Cranbourne
+Dutton
+Grindrod
+Lantz
+Les Cèdres
+Wikwemikong
+Blind Bay
+Saint-Éphrem-de-Tring
+Alfred
+Kensington
+Alençon
+Saint-Liboire
+Rosthem
+Havelock
+Omemee
+Creemore
+Bassano
+Hornepayne
+Lions Bay
+Taylor
+Balgonie
+Bernierville
+Saint-Henri-de-Lévis
+Smooth Rock Falls
+Luceville
+Saint-Pacôme
+Baie Verte
+Attawapiskat
+Gold River
+Manning
+Leaf Rapids
+Catalina
+Telkwa
+St. Leonard
+Saint-Damase
+Sainte-Thècle
+Barry's Bay
+Landmark
+Frenchman Butte
+Pangnirtung
+Coleraine
+Wadena
+Daveluyville
+Maliotenam
+Powerview-Pine Falls
+Peachland
+Eganville
+Richibucto
+Iroquois
+St. Jacobs
+Keremeos
+Schomberg
+Souris
+Oxford
+Le Bic
+Saint-Cyrill-de-Wendover
+Hastings
+Saint-Basile-Sud
+Saint-Raphaël
+Golden
+Lucknow
+Fraser Lake
+Hillsburgh
+Cultus Lake
+Hensall
+Mildmay
+Macklin
+Yamachiche
+Hantsport
+Emo
+Saint-Majorique-de-Grantham
+Powassan
+Labelle
+Shilo
+Brookside
+MacEwen
+Saint-Grégoire
+Armstrong
+Vallée-Jonction
+Val-David
+Everett
+Barriere
+Saint-Josephe-de-la-Rivière-Bleue
+Rogersville
+Brussels
+Filion
+Weedon Centre
+Lanigan
+Ignace
+Royston
+Louise
+Lac-au-Saumon
+Wilkie
+South River
+Shellbrook
+St. Adolphe
+Snow Lake
+Rougemont
+Stephenville Crossing
+Barraute
+Plaster Rock
+Carlyle
+Teeswater
+Ebb and Flow First Nation
+Melita
+Dorchester
+Falher
+Rivers
+Rodney
+Saint-Jean-de-Dieu
+Oka-Kanesatake
+Saint-Fabien
+Spirit River
+Sainte-Justine
+Humber Arm South
+Haines Junction
+Desbiens
+Two Hills
+Alberton
+Kedgwick
+Murdochville
+Saint-Alexandre
+Foam Lake
+Lac du Bonnet
+Cobalt
+Sainte-Anne-de-Madawaska
+Amigo Beach
+Schreiber
+Salmo
+Musgrave Harbour
+Hammonds Plains Road
+Gravelbourg
+Gjoa Haven
+Viking
+Maskinongé
+St-Pierre-Jolys
+St. Malo
+Chateau Lake Louise
+Carleton
+Paisley
+Irricana
+Ste. Rose du Lac
+Albanel
+Bagotville
+Bentley
+Trochu
+Langham
+Ft. McPherson
+Deloraine
+Saint-Denis
+Smoky Lake
+Bridgetown
+Bourget
+Cache Creek
+Ritchot
+Oxbow
+Killam
+Bromont
+Onoway
+Onoway
+Saint-Roch-de-l'Achigan
+Kerrobert
+Waldheim
+Langenburg
+Louisbourg
+Norman Wells
+Ear Falls
+Kaslo
+Sainte Rose du Lac
+Laverlochère
+Valemount
+Saint-Bonaventure
+Clyde River
+Montrose
+Hudson's Hope
+Carnduff
+Nackawic
+Preeceville
