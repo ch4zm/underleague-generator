@@ -54,13 +54,19 @@ class BaseLinearBiasedGenerator(object):
 
 
 class LinearBiasedGenerator(BaseLinearBiasedGenerator):
+    """
+    Generator that is linearly biased toward items at the front of the list
+    """
     def generate(self, size=1):
-        return super().generate(size, reverse=False)
+        return super().generate(size, reverse=True)
 
 
 class ReversedLinearBiasedGenerator(BaseLinearBiasedGenerator):
+    """
+    Generator that is linearly biased toward items at the back of the list
+    """
     def generate(self, size=1):
-        return super().generate(size, reverse=True)
+        return super().generate(size, reverse=False)
 
 
 class BaseLogBiasedGenerator(object):
@@ -93,10 +99,16 @@ class BaseLogBiasedGenerator(object):
 
 
 class LogBiasedGenerator(BaseLogBiasedGenerator):
+    """
+    Generator that is log biased toward items at the front of the list
+    """
     def generate(self, size=1):
-        return super().generate(size, reverse=False)
+        return super().generate(size, reverse=True)
 
 
 class ReversedLogBiasedGenerator(BaseLogBiasedGenerator):
+    """
+    Generator that is log biased toward items at the back of the list
+    """
     def generate(self, size=1):
-        return super().generate(size, reverse=True)
+        return super().generate(size, reverse=False)
