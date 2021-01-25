@@ -1,0 +1,3 @@
+include requirements*.txt Readme.md
+include src/data/*.txt
+include src/data/geography/*.txt
