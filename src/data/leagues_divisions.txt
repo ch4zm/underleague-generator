@@ -96,3 +96,8 @@ fiddlesticks,crikey,doggone,drat,boohoo,argh,alas,humbug,jeez,meh,naw,nope,okeyd
 afradium,byzanium,bureaucratium,bombastium,bolonium,blacksteel,durium,energon,galvorn,galine,haderoth,gudanium,latinum,polydichlorum,silictone,seastone,saronite,telemonium,tritanium,valyriumuridium,upsidaisium,unobtainium,zybanium
 beryl,amber,amethyst,cerussite,ceylonite,cinnabar,diamond,copal,gypsum,halite,jade,kunzite,lazurite,moonstone,onyx,opal,sapphire,pyrite,quartz,azurite,selenite,zircon,variscite,topaz,stilbite
 graphene,graphite,diamond,nanotube,fullerene,nanobud
+powerbomb,piledriver,guillotine,brainbuster,takedown,facebuster,chopwalk,elbowdrop,clothesline,hiptoss,cjairdropper,crossbody,fistblow,headbutt,hurricanrana,shoulderblock,suplex,legdrop,dropkick,flapjack,footstop,jawbreaker,uppercut,facemash,nosesmash,kneestrike,splashdrop,starpress,moonsault,turnbuckle,knucklecutter,chairdrop,spinflip,nosedart
+kitchen,study,ballroom,cellar,lounge,library,hall,conservatory
+dead end,secret passage,safe zone,bright spot,illusory wall,overconfidence,chance encounter,enemy horde,hidden path
+longfinger,indexfinger,ringfinger,smallfinger,thumb
+head,neck,stomach,back,arms,legs,butt
