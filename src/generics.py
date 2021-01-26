@@ -13,16 +13,34 @@ class IterableDataLoader(object):
 
 
 class UniformGenerator(object):
-    def generate(self, size=1):
+    def generate_nonunique(self, size=1):
         """
-        Sample data using uniform bias.
+        Sample data with replacement using uniform bias.
         Returns a list of the specified size.
         """
         if size > len(self.data) or size < 0:
             raise Exception(
-                f"Error: generate method got size parameter {size}, must be between 0 and {len(self.data)}"
+                f"Error: generate_nonunique method got size parameter {size}, must be between 0 and {len(self.data)}"
             )
         return random.choices(self.data, k=size)
+
+    def generate(self, size=1):
+        """
+        Sample data without replacement using uniform bias.
+        Returns a list of the specified size.
+        """
+        if size > len(self.data) or size < 0:
+            raise Exception(
+                f"Error: generate_nonunique method got size parameter {size}, must be between 0 and {len(self.data)}"
+            )
+        if size > (2 * len(self.data)) // 3 and len(self.data) > 100:
+            raise Exception(
+                f"Error: requested too many unique choices (>2/3 of a data set with >1k items)"
+            )
+        choices = set()
+        while len(choices) < size:
+            choices.add(random.choice(self.data))
+        return list(choices)
 
 
 class BaseLinearBiasedGenerator(object):
@@ -40,9 +58,9 @@ class BaseLinearBiasedGenerator(object):
     If reversed:
     """
 
-    def generate(self, size=1, reverse=False):
+    def generate_nonunique(self, size=1, reverse=False):
         """
-        Sample data using linear bias.
+        Sample data with replacement using linear bias.
         Returns a list of the specified size.
 
         Normally, bias is toward items at front of list.
@@ -50,20 +68,52 @@ class BaseLinearBiasedGenerator(object):
         """
         if size > len(self.data) or size < 0:
             raise Exception(
-                f"Error: generate method got size parameter {size}, must be between 0 and {len(self.data)}"
+                f"Error: generate_nonunique method got size parameter {size}, must be between 0 and {len(self.data)}"
             )
         revweights = list(range(1, len(self.data) + 1))
         if reverse:
             weights = revweights
         else:
             weights = list(reversed(revweights))
+
+        # Note: this returns repeats. it's up to the user to filter duplicates
         return random.choices(self.data, weights=weights, k=size)
+
+    def generate(self, size=1, reverse=False):
+        """
+        Sample data without replacement using linear bias.
+        Returns a list of the specified size.
+
+        Normally, bias is toward items at front of list.
+        If reverse is true, bias is twoard items at back of list.
+        """
+        if size > len(self.data) or size < 0:
+            raise Exception(
+                f"Error: generate_nonunique method got size parameter {size}, must be between 0 and {len(self.data)}"
+            )
+        if size > (2 * len(self.data)) // 3 and len(self.data) > 100:
+            raise Exception(
+                f"Error: requested too many unique choices (>2/3 of a data set with >1k items)"
+            )
+        revweights = list(range(1, len(self.data) + 1))
+        if reverse:
+            weights = revweights
+        else:
+            weights = list(reversed(revweights))
+
+        choices = set()
+        while len(choices) < size:
+            choices.add(random.choices(self.data, weights=weights, k=1)[0])
+        return list(choices)
 
 
 class LinearBiasedGenerator(BaseLinearBiasedGenerator):
     """
     Generator that is linearly biased toward items at the front of the list
     """
+
+    def generate_nonunique(self, size=1):
+        return super().generate_nonunique(size, reverse=False)
 
     def generate(self, size=1):
         return super().generate(size, reverse=False)
@@ -74,58 +124,8 @@ class ReversedLinearBiasedGenerator(BaseLinearBiasedGenerator):
     Generator that is linearly biased toward items at the back of the list
     """
 
-    def generate(self, size=1):
-        return super().generate(size, reverse=True)
-
-
-class BaseLogBiasedGenerator(object):
-    """
-    Returns a generator that will be logarithmically biased to return items from top of list.
-    Basically, each item has double the probability of occurring as the next item.
-
-    Example: a five-item list would have the following probabilities:
-
-    blue    2^5 / (2^1 + ... + 2^5) = 51%
-    red     2^4 / (2^1 + ... + 2^5) = 25%
-    green   2^3 / (2^1 + ... + 2^5) = 12%
-    yellow  2^2 / (2^1 + ... + 2^5) = 6%
-    purple  2^1 / (2^1 + ... + 2^5) = 3%
-    """
-
-    def generate(self, size=1, reverse=False):
-        """
-        Sample data using log bias.
-        Returns a list of the specified size.
-        """
-        if size > len(self.data) or size < 0:
-            raise Exception(
-                f"Error: generate method got size parameter {size}, must be between 0 and {len(self.data)}"
-            )
-        if len(self.data) >= 1024:
-            raise Exception(
-                f"Error: data set size {len(self.data)} exceeds maximum (1024) for LogBiasedGenerators"
-            )
-        revweights = [2 ** j for j in range(1, len(self.data) + 1)]
-        if reverse:
-            weights = revweights
-        else:
-            weights = list(reversed(revweights))
-        return random.choices(self.data, weights=weights, k=size)
-
-
-class LogBiasedGenerator(BaseLogBiasedGenerator):
-    """
-    Generator that is log biased toward items at the front of the list
-    """
-
-    def generate(self, size=1):
-        return super().generate(size, reverse=False)
-
-
-class ReversedLogBiasedGenerator(BaseLogBiasedGenerator):
-    """
-    Generator that is log biased toward items at the back of the list
-    """
+    def generate_nonunique(self, size=1):
+        return super().generate_nonunique(size, reverse=True)
 
     def generate(self, size=1):
         return super().generate(size, reverse=True)
