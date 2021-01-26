@@ -38,8 +38,20 @@ class TestGeography(unittest.TestCase):
         res = bsg.generate(size=10)
         self.assertIn("California", res)
     
-    ### def test_cities_generator(self):
-    ###     random.seed(420)
-    ###     cg = CitiesGenerator(country_code="usa")
-    ###     res = cg.generate(size=10)
-    ###     self.assertIn("Danbury", res)
+    def test_cities_generator(self):
+        random.seed(420)
+        cg = CitiesGenerator(country_code="usa")
+        res = cg.generate(size=10)
+        self.assertIn("Danbury", res)
+
+    def test_small_towns_generator(self):
+        random.seed(420)
+        cg = SmallTownsGenerator(country_code="usa")
+        res = cg.generate(size=10)
+        self.assertIn("Cold Spring Harbor", res)
+
+    def test_big_cities_generator(self):
+        random.seed(420)
+        cg = BigCitiesGenerator(country_code="usa")
+        res = cg.generate(size=10)
+        self.assertIn("Anchorage", res)

@@ -51,7 +51,12 @@ class BigCitiesGenerator(CitiesGeneratorBase, LinearBiasedGenerator):
     Generate random cities with a log bias for big cities
     """
 
-    pass
+    def __init__(self, **kwargs):
+        super().__init__(**kwargs)
+
+        # reduce list to first 1/3 in list
+        index = len(self.data)//3
+        self.data = self.data[:index]
 
 
 class SmallTownsGenerator(CitiesGeneratorBase, ReversedLinearBiasedGenerator):
@@ -59,7 +64,12 @@ class SmallTownsGenerator(CitiesGeneratorBase, ReversedLinearBiasedGenerator):
     Generate random cities with a linear bias for small towns
     """
 
-    pass
+    def __init__(self, **kwargs):
+        super().__init__(**kwargs)
+
+        # reduce list to last 2/3 in list
+        index = len(self.data)//3
+        self.data = self.data[index:]
 
 
 class StatesGeneratorBase(IterableDataLoader):
@@ -96,14 +106,21 @@ class BigStatesGenerator(StatesGeneratorBase, LinearBiasedGenerator):
     Generate random states with a linear bias for big states
     """
 
-    pass
+    def __init__(self, **kwargs):
+        super().__init__(**kwargs)
+
+        # reduce list to first 1/2 in list
+        index = len(self.data)//2
+        self.data = self.data[:index]
 
 
 class SmallStatesGenerator(StatesGeneratorBase, ReversedLinearBiasedGenerator):
     """
     Generate random states with a linear bias for small states
     """
+    def __init__(self, **kwargs):
+        super().__init__(**kwargs)
 
-    pass
-
-
+        # reduce list to last 1/2 in list
+        index = len(self.data)//2
+        self.data = self.data[index:]
