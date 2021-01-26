@@ -16,45 +16,75 @@ from underleague_generator.geography import (
 class TestGeography(unittest.TestCase):
     def test_states_generator_base(self):
         sg = StatesGeneratorBase(country_code="usa")
-        # Calling generate() should fail
+        # Calling generate_nonunique() should fail
         with self.assertRaises(AttributeError):
-            sg.generate(size=50)
+            sg.generate_nonunique(size=50)
 
     def test_states_generator(self):
-        random.seed(420)
         sg = StatesGenerator(country_code="usa")
+
+        random.seed(420)
         res = sg.generate(size=10)
         self.assertIn("Texas", res)
 
-    def test_small_states_generator(self):
         random.seed(420)
+        res2 = sg.generate_nonunique(size=10)
+        self.assertIn("Texas", res2)
+
+    def test_small_states_generator(self):
         ssg = SmallStatesGenerator(country_code="usa")
+
+        random.seed(420)
         res = ssg.generate(size=10)
         self.assertIn("Wyoming", res)
 
-    def test_big_states_generator(self):
         random.seed(420)
+        res2 = ssg.generate_nonunique(size=10)
+        self.assertIn("Wyoming", res2)
+
+    def test_big_states_generator(self):
         bsg = BigStatesGenerator(country_code="usa")
+
+        random.seed(420)
         res = bsg.generate(size=10)
         self.assertIn("California", res)
 
-    def test_cities_generator(self):
         random.seed(420)
+        res2 = bsg.generate_nonunique(size=10)
+        self.assertIn("California", res2)
+
+    def test_cities_generator(self):
         cg = CitiesGenerator(country_code="usa")
+
+        random.seed(420)
         res = cg.generate(size=10)
-        self.assertIn("Danbury", res)
+        self.assertIn("Scranton", res)
+
+        random.seed(420)
+        res2 = cg.generate_nonunique(size=10)
+        self.assertIn("Danbury", res2)
 
     def test_small_towns_generator(self):
-        random.seed(420)
         cg = SmallTownsGenerator(country_code="usa")
+
+        random.seed(420)
         res = cg.generate(size=10)
         self.assertIn("Cold Spring Harbor", res)
 
-    def test_big_cities_generator(self):
         random.seed(420)
+        res2 = cg.generate_nonunique(size=10)
+        self.assertIn("Cold Spring Harbor", res2)
+
+    def test_big_cities_generator(self):
         cg = BigCitiesGenerator(country_code="usa")
-        res = cg.generate(size=10)
+
+        random.seed(420)
+        res = cg.generate_nonunique(size=10)
         self.assertIn("Anchorage", res)
+
+        random.seed(420)
+        res2 = cg.generate(size=10)
+        self.assertIn("Anchorage", res2)
 
     def test_city_country_codes(self):
         country_codes = get_city_country_codes()
