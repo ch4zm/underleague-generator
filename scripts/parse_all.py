@@ -19,13 +19,17 @@ CITY_POPLIM = 1e3
 # - cities and states shall be sorted in order from largest first to smallest last
 
 
-with open('world_full.xml') as f:
+HERE = os.path.abspath(os.path.dirname(__file__))
+XML = os.path.join(HERE, 'world_full.xml')
+
+
+with open(XML) as f:
     doc = xmltodict.parse(f.read())
 
 world = doc['WORLD']
 continents = world['CONTINENTS']
 
-outputdir = 'output'
+outputdir = os.path.abspath(os.path.join(HERE,'..','src','data','geography'))
 try:
     os.mkdir(outputdir)
 except FileExistsError:

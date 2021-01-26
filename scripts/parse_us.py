@@ -15,13 +15,17 @@ CITY_POPLIM = 1e3
 #   - create usa_az.txt with all az cities, etc.
 
 
-with open('world_full.xml') as f:
+HERE = os.path.abspath(os.path.dirname(__file__))
+XML = os.path.join(HERE, 'world_full.xml')
+
+
+with open(XML) as f:
     doc = xmltodict.parse(f.read())
 
 world = doc['WORLD']
 continents = world['CONTINENTS']
 
-outputdir = 'output'
+outputdir = os.path.abspath(os.path.join(HERE,'..','src','data','geography'))
 try:
     os.mkdir(outputdir)
 except FileExistsError:
@@ -73,12 +77,8 @@ for continent in continents_list:
                 sorted_cities = [c[0] for c in cities_pop]
 
                 # Output to file
-                scfname = os.path.join(outputdir, f'usa{abbr}.json')
-                json_output = {
-                    "description": f"Names of cities in {sname}",
-                    "cities": sorted_cities
-                }
+                scfname = os.path.join(outputdir, f'usa{abbr}.txt')
                 for city in sorted_cities:
                     print(f"    City: {city}")
                 with open(scfname, 'w') as f:
-                    json.dump(json_output, f, indent=4)
+                    f.write("\n".join(sorted_cities))
