@@ -9,6 +9,9 @@ from underleague_generator.generics import (
     BaseLinearBiasedGenerator,
     LinearBiasedGenerator,
     ReversedLinearBiasedGenerator,
+    BaseLogBiasedGenerator,
+    LogBiasedGenerator,
+    ReversedLogBiasedGenerator,
 )
 
 
@@ -71,3 +74,155 @@ class GenericsTests(unittest.TestCase):
             pass
 
         self.check_generator(SampleReversedLinearBiasedGenerator)
+
+    def test_base_log_biased_generator(self):
+        class SampleBaseLogBiasedGenerator(
+            IterableDataLoader, BaseLogBiasedGenerator
+        ):
+            pass
+
+        self.check_generator(SampleBaseLogBiasedGenerator)
+
+    def test_log_biased_generator(self):
+        class SampleLogBiasedGenerator(IterableDataLoader, LogBiasedGenerator):
+            pass
+
+        self.check_generator(SampleLogBiasedGenerator)
+
+    def test_reversed_log_biased_generator(self):
+        class SampleReversedLogBiasedGenerator(
+            IterableDataLoader, ReversedLogBiasedGenerator
+        ):
+            pass
+
+        self.check_generator(SampleReversedLogBiasedGenerator)
+
+
+class BiasTests(unittest.TestCase):
+    """
+    Test that the different biased generators
+    are correctly biased.
+    """
+
+    def get_data(self):
+        return ["blue", "red", "green", "yellow", "purple"]
+
+    def get_pct_samples(self, color, samples):
+        count = sum([1 for s in samples if s == color])
+        return count / len(samples)
+
+    def test_bias_uniform_generator(self):
+        class SampleUniformGenerator(IterableDataLoader, UniformGenerator):
+            pass
+
+        data = self.get_data()
+        g = SampleUniformGenerator(data=data)
+        samples = [g.generate()[0] for j in range(1000)]
+        pct_red = self.get_pct_samples("red", samples)
+        self.assertLess(pct_red, 0.50)
+
+    def test_bias_linear_biased_generator(self):
+        """
+        Expected probabilities for a five-item list:
+
+        blue    5 / (5+4+3+2+1) = 33.3%
+        red     4 / ( ...     ) = 26.6%
+        green   3 / ( ...     ) = 20.0%
+        yellow  2 / ( ...     ) = 13.3%
+        purple  1 / ( ...     ) = 6.6%
+        """
+        # -------------------
+        # Define test classes
+
+        class SampleLinearBiasedGenerator(IterableDataLoader, LinearBiasedGenerator):
+            pass
+
+        class SampleRevLinearBiasedGenerator(
+            IterableDataLoader, ReversedLinearBiasedGenerator
+        ):
+            pass
+
+        # -------------------
+        # Test the linear bias generator
+
+        g = SampleLinearBiasedGenerator(data=self.get_data())
+
+        samples = [g.generate()[0] for j in range(10000)]
+
+        # First item in list is most likely
+        pct_blue = self.get_pct_samples("blue", samples)
+        self.assertLess(pct_blue, 0.35)
+        self.assertGreater(pct_blue, 0.28)
+
+        pct_purp = self.get_pct_samples("purple", samples)
+        self.assertLess(pct_purp, 0.08)
+        self.assertGreater(pct_purp, 0.04)
+
+        # -------------------
+        # Test the reversed linear bias generator
+
+        h = SampleRevLinearBiasedGenerator(data=self.get_data())
+
+        revsamples = [h.generate()[0] for j in range(10000)]
+
+        # Last item in list is most likely
+        revpct_purp = self.get_pct_samples("purple", revsamples)
+        self.assertLess(revpct_purp, 0.35)
+        self.assertGreater(revpct_purp, 0.28)
+
+        revpct_blue = self.get_pct_samples("blue", revsamples)
+        self.assertLess(revpct_blue, 0.08)
+        self.assertGreater(revpct_blue, 0.04)
+
+    def test_bias_log_biased_generator(self):
+        """
+        Expected probabilities for a five-item list:
+
+        blue    2^5 / (2^1 + ... + 2^5) = 51%
+        red     2^4 / (2^1 + ... + 2^5) = 25%
+        green   2^3 / (2^1 + ... + 2^5) = 12%
+        yellow  2^2 / (2^1 + ... + 2^5) = 6%
+        purple  2^1 / (2^1 + ... + 2^5) = 3%
+        """
+        # -------------------
+        # Define test classes
+
+        class SampleLogBiasedGenerator(IterableDataLoader, LogBiasedGenerator):
+            pass
+
+        class SampleRevLogBiasedGenerator(
+            IterableDataLoader, ReversedLogBiasedGenerator
+        ):
+            pass
+
+        # -------------------
+        # Test the log bias generator
+
+        g = SampleLogBiasedGenerator(data=self.get_data())
+
+        samples = [g.generate()[0] for j in range(10000)]
+
+        # First item in list is most likely
+        pct_blue = self.get_pct_samples("blue", samples)
+        self.assertLess(pct_blue, 0.54)
+        self.assertGreater(pct_blue, 0.48)
+
+        pct_purp = self.get_pct_samples("purple", samples)
+        self.assertLess(pct_purp, 0.05)
+        self.assertGreater(pct_purp, 0.01)
+
+        # -------------------
+        # Test the reversed log bias generator
+
+        h = SampleRevLogBiasedGenerator(data=self.get_data())
+
+        revsamples = [h.generate()[0] for j in range(10000)]
+
+        # Last item in list is most likely
+        revpct_purp = self.get_pct_samples("purple", revsamples)
+        self.assertLess(revpct_purp, 0.54)
+        self.assertGreater(revpct_purp, 0.48)
+
+        revpct_blue = self.get_pct_samples("blue", revsamples)
+        self.assertLess(revpct_blue, 0.05)
+        self.assertGreater(revpct_blue, 0.01)

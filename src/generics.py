@@ -35,21 +35,28 @@ class BaseLinearBiasedGenerator(object):
     red     4 / ( ...     ) = 20%
     green   3 / ( ...     ) = 15%
     yellow  2 / ( ...     ) = 10%
-    purle   1 / ( ...     ) = 5%
+    purple  1 / ( ...     ) = 5%
+
+    If reversed:
     """
 
     def generate(self, size=1, reverse=False):
         """
         Sample data using linear bias.
         Returns a list of the specified size.
+
+        Normally, bias is toward items at front of list.
+        If reverse is true, bias is twoard items at back of list.
         """
         if size > len(self.data) or size < 0:
             raise Exception(
                 f"Error: generate method got size parameter {size}, must be between 0 and {len(self.data)}"
             )
-        weights = list(range(1, len(self.data) + 1))
+        revweights = list(range(1, len(self.data) + 1))
         if reverse:
-            weights = reversed(weights)
+            weights = revweights
+        else:
+            weights = list(reversed(revweights))
         return random.choices(self.data, weights=weights, k=size)
 
 
@@ -57,16 +64,18 @@ class LinearBiasedGenerator(BaseLinearBiasedGenerator):
     """
     Generator that is linearly biased toward items at the front of the list
     """
+
     def generate(self, size=1):
-        return super().generate(size, reverse=True)
+        return super().generate(size, reverse=False)
 
 
 class ReversedLinearBiasedGenerator(BaseLinearBiasedGenerator):
     """
     Generator that is linearly biased toward items at the back of the list
     """
+
     def generate(self, size=1):
-        return super().generate(size, reverse=False)
+        return super().generate(size, reverse=True)
 
 
 class BaseLogBiasedGenerator(object):
@@ -92,9 +101,11 @@ class BaseLogBiasedGenerator(object):
             raise Exception(
                 f"Error: generate method got size parameter {size}, must be between 0 and {len(self.data)}"
             )
-        weights = [2 ** j for j in range(1, len(self.data) + 1)]
+        revweights = [2 ** j for j in range(1, len(self.data) + 1)]
         if reverse:
-            weights = reversed(weights)
+            weights = revweights
+        else:
+            weights = list(reversed(revweights))
         return random.choices(self.data, weights=weights, k=size)
 
 
@@ -102,13 +113,15 @@ class LogBiasedGenerator(BaseLogBiasedGenerator):
     """
     Generator that is log biased toward items at the front of the list
     """
+
     def generate(self, size=1):
-        return super().generate(size, reverse=True)
+        return super().generate(size, reverse=False)
 
 
 class ReversedLogBiasedGenerator(BaseLogBiasedGenerator):
     """
     Generator that is log biased toward items at the back of the list
     """
+
     def generate(self, size=1):
-        return super().generate(size, reverse=False)
+        return super().generate(size, reverse=True)
