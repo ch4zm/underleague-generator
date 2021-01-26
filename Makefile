@@ -1,5 +1,3 @@
-include common.mk
-
 MODULES=src tests
 
 CB := $(shell git branch --show-current)
