@@ -1,5 +1,6 @@
 import random
 import unittest
+from underleague_generator.utils import get_city_country_codes, get_state_country_codes
 from underleague_generator.geography import (
     StatesGeneratorBase,
     StatesGenerator,
@@ -13,7 +14,6 @@ from underleague_generator.geography import (
 
 
 class TestGeography(unittest.TestCase):
-
     def test_states_generator_base(self):
         sg = StatesGeneratorBase(country_code="usa")
         # Calling generate() should fail
@@ -37,7 +37,7 @@ class TestGeography(unittest.TestCase):
         bsg = BigStatesGenerator(country_code="usa")
         res = bsg.generate(size=10)
         self.assertIn("California", res)
-    
+
     def test_cities_generator(self):
         random.seed(420)
         cg = CitiesGenerator(country_code="usa")
@@ -55,3 +55,17 @@ class TestGeography(unittest.TestCase):
         cg = BigCitiesGenerator(country_code="usa")
         res = cg.generate(size=10)
         self.assertIn("Anchorage", res)
+
+    def test_city_country_codes(self):
+        country_codes = get_city_country_codes()
+        for country_code in country_codes:
+            CitiesGenerator(country_code=country_code)
+            BigCitiesGenerator(country_code=country_code)
+            SmallTownsGenerator(country_code=country_code)
+
+    def test_state_country_codes(self):
+        country_codes = get_state_country_codes()
+        for country_code in country_codes:
+            StatesGenerator(country_code=country_code)
+            BigStatesGenerator(country_code=country_code)
+            SmallStatesGenerator(country_code=country_code)

@@ -9,8 +9,8 @@ def get_city_country_codes():
     for fpath in glob(GEO + "/*.txt"):
         fname = os.path.basename(fpath)
         if "states" in fname:
-            pass
-        country_code = fname.split("_")[0]
+            continue
+        country_code = fname.split(".")[0]
         country_codes.add(country_code)
     return sorted(list(country_codes))
 
