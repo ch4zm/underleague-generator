@@ -14,8 +14,6 @@ from .generics import (
     UniformGenerator,
     LinearBiasedGenerator,
     ReversedLinearBiasedGenerator,
-    LogBiasedGenerator,
-    ReversedLogBiasedGenerator,
 )
 
 
@@ -48,7 +46,7 @@ class CitiesGenerator(CitiesGeneratorBase, UniformGenerator):
     pass
 
 
-class BigCitiesGenerator(CitiesGeneratorBase, LogBiasedGenerator):
+class BigCitiesGenerator(CitiesGeneratorBase, LinearBiasedGenerator):
     """
     Generate random cities with a log bias for big cities
     """
