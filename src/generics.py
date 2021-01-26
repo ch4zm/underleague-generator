@@ -101,6 +101,10 @@ class BaseLogBiasedGenerator(object):
             raise Exception(
                 f"Error: generate method got size parameter {size}, must be between 0 and {len(self.data)}"
             )
+        if len(self.data) >= 1024:
+            raise Exception(
+                f"Error: data set size {len(self.data)} exceeds maximum (1024) for LogBiasedGenerators"
+            )
         revweights = [2 ** j for j in range(1, len(self.data) + 1)]
         if reverse:
             weights = revweights
