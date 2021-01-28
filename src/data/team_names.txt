@@ -35,8 +35,8 @@ Boarders
 Boat Shoes
 Boll Wevils
 Boltcutters
-Bone Throwers
 Bone Saws
+Bone Throwers
 Bookmakers
 Bookmenders
 Boomers
@@ -91,8 +91,8 @@ Contrails
 Cookie Eaters
 Cool Cats
 Corporates
-Counter-Spies
 Couchfeet
+Counter-Spies
 Counts
 Crouchfeet
 Curse Words
@@ -183,12 +183,12 @@ Garlic Breaths
 Gastroenterologists
 Gator Tails
 Gaudy
-Gaussians
 Gaussian Tails
-Geckos
+Gaussians
 Gearheads
-Geometers
+Geckos
 Geniuses
+Geometers
 Geostrategists
 Germ Vectors
 Germination
@@ -252,12 +252,12 @@ Inspectors
 Instrumentalists
 Insubordinates
 Insurrectionists
-Intransigence
 Intellectuals
 Interferomters
 Interpolations
 Interpretationalists
 Intersectionalists
+Intransigence
 Invertebrates
 Ionization Energy
 Isobars
@@ -282,8 +282,8 @@ Kindergardeners
 Kinematics
 Kinetics
 Kingfishers
-Kiwis
 Kites
+Kiwis
 Kleptomaniacs
 Knickerboxers
 Knife Sharpeners
@@ -363,9 +363,9 @@ Nephrectomizers
 Nerds
 Nerdsnipers
 Nervous Tics
+Neurochemical Pathways
 Neuroendocrinologists
 Neuropathologists
-Neurochemical Pathways
 Neutron Equations
 Newscasters
 Night Knights
@@ -396,12 +396,12 @@ Oarlifters
 Obfuscations
 Obfuscators
 Objurgations
+Obnoxious Bastards
 Obscure Birds
 Obscure Fish
 Obscure References
 Obstructers
 Obstructions
-Obnoxious Bastards
 Oceanographics
 Ochre
 Octagons
@@ -452,8 +452,8 @@ Pita Pockets
 Plague Rats
 Plenipotentiaries
 Pop
-Postals
 Post Classicalists
+Postals
 Postmillennials
 Potholes
 Prenups
@@ -489,8 +489,8 @@ Satistical Models
 Sativas
 Sawhands
 Says Who
-Scribes
 Scribblers
+Scribes
 Scurvy
 Sea Borgs
 Sea Lions
