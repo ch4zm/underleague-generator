@@ -23,10 +23,10 @@ class CitiesGeneratorBase(IterableDataLoader):
     """
 
     def __init__(self, **kwargs):
-        if 'country_code' not in kwargs:
+        if "country_code" not in kwargs:
             raise Exception("Error: country_code is a required keyword argument")
         else:
-            country_code = kwargs['country_code']
+            country_code = kwargs["country_code"]
         if country_code not in get_city_country_codes():
             raise Exception(
                 "Error: invalid country code {country_code} passed to {cls.__name__}"
@@ -55,7 +55,7 @@ class BigCitiesGenerator(CitiesGeneratorBase, LinearBiasedGenerator):
         super().__init__(**kwargs)
 
         # reduce list to first 1/3 in list
-        index = len(self.data)//3
+        index = len(self.data) // 3
         self.data = self.data[:index]
 
 
@@ -68,7 +68,7 @@ class SmallTownsGenerator(CitiesGeneratorBase, ReversedLinearBiasedGenerator):
         super().__init__(**kwargs)
 
         # reduce list to last 2/3 in list
-        index = len(self.data)//3
+        index = len(self.data) // 3
         self.data = self.data[index:]
 
 
@@ -78,10 +78,10 @@ class StatesGeneratorBase(IterableDataLoader):
     """
 
     def __init__(self, **kwargs):
-        if 'country_code' not in kwargs:
+        if "country_code" not in kwargs:
             raise Exception("Error: country_code is a required keyword argument")
         else:
-            country_code = kwargs['country_code']
+            country_code = kwargs["country_code"]
         if country_code not in get_state_country_codes():
             raise Exception(
                 "Error: invalid country code {country_code} passed to {cls.__name__}"
@@ -110,7 +110,7 @@ class BigStatesGenerator(StatesGeneratorBase, LinearBiasedGenerator):
         super().__init__(**kwargs)
 
         # reduce list to first 1/2 in list
-        index = len(self.data)//2
+        index = len(self.data) // 2
         self.data = self.data[:index]
 
 
@@ -118,9 +118,10 @@ class SmallStatesGenerator(StatesGeneratorBase, ReversedLinearBiasedGenerator):
     """
     Generate random states with a linear bias for small states
     """
+
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
 
         # reduce list to last 1/2 in list
-        index = len(self.data)//2
+        index = len(self.data) // 2
         self.data = self.data[index:]

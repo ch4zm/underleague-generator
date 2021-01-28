@@ -32,7 +32,7 @@ class LeagueDivisionTest(unittest.TestCase):
         res = lg.generate(size=4)
         self.assertIn('Peanut', res)
         res2 = lg.generate(size=16)
-        self.assertIn('Whiskey', res2)
+        self.assertIn('Goose', res2)
 
     def test_division_name_generator(self):
         dg = DivisionNameGenerator()
@@ -40,4 +40,4 @@ class LeagueDivisionTest(unittest.TestCase):
         res = dg.generate(size=4)
         self.assertIn('Peanut', res)
         res2 = dg.generate(size=16)
-        self.assertIn('Whiskey', res2)
+        self.assertIn('Goose', res2)
