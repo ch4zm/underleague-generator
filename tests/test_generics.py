@@ -25,6 +25,20 @@ class GenericsTests(unittest.TestCase):
         i = IterableDataLoader(data)
         self.assertEqual(data, i.data)
 
+    def test_iterable_data_loader_errors(self):
+        data = True
+        with self.assertRaises(Exception):
+            i = IterableDataLoader(data)
+
+        data2 = [0, 1, 2, 3]
+        i2 = IterableDataLoader(data2)
+
+        with self.assertRaises(Exception):
+            i2.generate(size=100)
+
+        with self.assertRaises(Exception):
+            i2.generate_nonunique(size=100)
+
     def check_generator(self, GenClass):
         nsamples = 100
 
