@@ -11,14 +11,14 @@ class TestSplortsLeague(unittest.TestCase):
         random.seed(420)
         res = slg.generate()
 
-        league_names = ["Chaotic", "Lawful"]
-        division_names = ["Knowledge", "Revelation"]
+        league_names = ["Aleatoric", "Epistemic"]
+        division_names = ["Postminimalism", "Primitivism"]
         for league_name in league_names:
             self.assertIn(league_name, res.keys())
             for division_name in division_names:
                 self.assertIn(division_name, res[league_name])
 
-        self.assertIn("Westport Coattails", res["Chaotic"]["Knowledge"])
+        self.assertIn("Westport Coattails", res[league_names[0]][division_names[0]])
 
     def test_extract_leagues_divisions_teams_sim(self):
         league = {
@@ -61,8 +61,10 @@ class TestSplortsLeague(unittest.TestCase):
             division_names,
             team_names,
         ) = SplortsLeagueGenerator.extract_leagues_divisions_teams(res)
-        self.assertIn("Chaotic", league_names)
-        self.assertIn("Knowledge", division_names)
+        self.assertIn("Aleatoric", league_names)
+        self.assertIn("Epistemic", league_names)
+        self.assertIn("Postminimalism", division_names)
+        self.assertIn("Primitivism", division_names)
         self.assertIn("Cedar City Sweatsocks", team_names)
 
     def test_league_geo_type(self):
@@ -78,10 +80,10 @@ class TestSplortsLeague(unittest.TestCase):
             division_names,
             team_names,
         ) = SplortsLeagueGenerator.extract_leagues_divisions_teams(res)
-        self.assertIn('Chaotic', league_names)
-        self.assertIn('Lawful', league_names)
-        self.assertIn('Knowledge', division_names)
-        self.assertIn('Revelation', division_names)
+        self.assertIn('Aleatoric', league_names)
+        self.assertIn('Epistemic', league_names)
+        self.assertIn('Postminimalism', division_names)
+        self.assertIn('Primitivism', division_names)
         self.assertIn('Satis Fighting Asparagus', team_names)
         self.assertIn('Pervoye Maya Gyroscopes', team_names)
         self.assertIn('Olginskaya Stevedores', team_names)
@@ -98,10 +100,10 @@ class TestSplortsLeague(unittest.TestCase):
             division_names2,
             team_names2,
         ) = SplortsLeagueGenerator.extract_leagues_divisions_teams(res2)
-        self.assertIn('Peanut', league_names2)
-        self.assertIn('Lentil', league_names2)
-        self.assertIn('Spring', division_names2)
-        self.assertIn('Summer', division_names2)
+        self.assertIn('Alpha', league_names2)
+        self.assertIn('Bravo', league_names2)
+        self.assertIn('Apricot', division_names2)
+        self.assertIn('Lime', division_names2)
         self.assertIn('Moscow Parabolas', team_names2)
         self.assertIn('Khabarovsk Eight Tracks', team_names2)
         self.assertIn('Tomsk Frivolities', team_names2)

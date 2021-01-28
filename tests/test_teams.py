@@ -78,10 +78,12 @@ class LeagueDivisionTest(unittest.TestCase):
         random.seed(420)
 
         res = lg.generate(size=4)
-        self.assertIn("Peanut", res)
+        self.assertIn("Alpha", res)
+        self.assertIn("Bravo", res)
 
         res2 = lg.generate(size=16)
-        self.assertIn("Goose", res2)
+        self.assertIn("Beryl", res2)
+        self.assertIn("Amber", res2)
 
     def test_division_name_generator(self):
         dg = DivisionNameGenerator()
@@ -89,10 +91,12 @@ class LeagueDivisionTest(unittest.TestCase):
         random.seed(420)
 
         res = dg.generate(size=4)
-        self.assertIn("Peanut", res)
+        self.assertIn("Alpha", res)
+        self.assertIn("Bravo", res)
 
         res2 = dg.generate(size=16)
-        self.assertIn("Goose", res2)
+        self.assertIn("Beryl", res2)
+        self.assertIn("Amber", res2)
 
     def test_league_division_generator_data_file(self):
         leagues_divisions = [

@@ -12,6 +12,16 @@ from underleague_generator.players import (
 
 
 class TestPlayers(unittest.TestCase):
+    fake_names = [
+        "Asdf",
+        "Qwerty",
+        "Zxcvb",
+        "Yuiop",
+        "Ghjkl",
+        "Bnm",
+        "Rtyu"
+    ]
+
     @classmethod
     def setUpClass(cls):
         cls.tmpdir = tempfile.TemporaryDirectory()
@@ -33,8 +43,35 @@ class TestPlayers(unittest.TestCase):
         fng = FirstNameGenerator()
         random.seed(420)
         res = fng.generate(size=4)
-        print(res)
-        #self.assertIn("Nightmares", res)
+        self.assertIn("Parker", res)
+
+    def test_last_name_generator(self):
+        fng = LastNameGenerator()
+        random.seed(420)
+        res = fng.generate(size=4)
+        self.assertIn("Bates", res)
+
+    def test_first_name_generator_data_file(self):
+        fnames = self.fake_names
+        fnfile = os.path.join(self.tmp, 'first_names.txt')
+        with open(fnfile, 'w') as f:
+            f.write("\n".join(fnames))
+
+        fng = FirstNameGenerator(first_names_file=fnfile)
+        random.seed(420)
+        res = fng.generate(size=4)
+        self.assertIn("Asdf", res)
+
+    def test_last_name_generator_data_file(self):
+        lnames = self.fake_names
+        lnfile = os.path.join(self.tmp, 'last_names.txt')
+        with open(lnfile, 'w') as f:
+            f.write("\n".join(lnames))
+
+        lng = LastNameGenerator(last_names_file=lnfile)
+        random.seed(420)
+        res = lng.generate(size=4)
+        self.assertIn("Bnm", res)
 
     @classmethod
     def tearDownClass(cls):
