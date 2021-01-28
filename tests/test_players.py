@@ -51,6 +51,12 @@ class TestPlayers(unittest.TestCase):
         res = fng.generate(size=4)
         self.assertIn("Bates", res)
 
+    def test_name_generator(self):
+        ng = NameGenerator()
+        random.seed(420)
+        res = ng.generate(size=4)
+        self.assertIn("Parker Pangreaser", res)
+
     def test_first_name_generator_data_file(self):
         fnames = self.fake_names
         fnfile = os.path.join(self.tmp, 'first_names.txt')
@@ -72,6 +78,23 @@ class TestPlayers(unittest.TestCase):
         random.seed(420)
         res = lng.generate(size=4)
         self.assertIn("Bnm", res)
+
+    def test_name_generator(self):
+        fnames = self.fake_names
+        fnfile = os.path.join(self.tmp, 'first_names.txt')
+        with open(fnfile, 'w') as f:
+            f.write("\n".join(fnames))
+
+        lnames = self.fake_names
+        lnfile = os.path.join(self.tmp, 'last_names.txt')
+        with open(lnfile, 'w') as f:
+            f.write("\n".join(lnames))
+
+        ng = NameGenerator(first_names_file=fnfile, last_names_file=lnfile)
+        random.seed(420)
+        res = ng.generate(size=4)
+        self.assertIn('Zxcvb Asdf', res)
+        self.assertIn('Rtyu Rtyu', res)
 
     @classmethod
     def tearDownClass(cls):
