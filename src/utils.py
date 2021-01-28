@@ -64,7 +64,7 @@ def get_states_count(country_code):
         raise Exception(
             f"Error: could not run get_state_count(): invalid country code {country_code} for states"
         )
-    with open(states_fpath, "r") as f:
+    with open(st_fpath, "r") as f:
         data = f.readlines()
     data = [j.strip() for j in data if len(j.strip()) > 0]
     return len(data)

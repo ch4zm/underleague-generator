@@ -1,7 +1,7 @@
 import os
 import random
 import unittest
-from underleague_generator.constants import GEO
+from underleague_generator.constants import DATA, GEO
 from underleague_generator.utils import (
     get_city_country_codes,
     get_state_country_codes,
@@ -39,3 +39,37 @@ class TestUtils(unittest.TestCase):
             our_path = os.path.join(GEO, f'{cc}.txt')
             their_path = get_cities_data_file_from_country_code(cc)
             self.assertEqual(our_path, their_path)
+
+    def test_get_team_names_data_file(self):
+        our_path = os.path.join(DATA, f'team_names.txt')
+        their_path = get_team_names_data_file()
+        self.assertEqual(our_path, their_path)
+
+    def test_get_leagues_divisions_data_file(self):
+        our_path = os.path.join(DATA, f'leagues_divisions.txt')
+        their_path = get_leagues_divisions_data_file()
+        self.assertEqual(our_path, their_path)
+
+    def test_cities_count(self):
+        counts = {
+            'usa': 14895,
+            'rus': 4589,
+            'fra': 9022,
+            'ger': 7525,
+            'can': 1181,
+        }
+        for cc in counts:
+            count = get_cities_count(cc)
+            self.assertEqual(counts[cc], count)
+
+    def test_states_count(self):
+        counts = {
+            'usa': 51,
+            'rus': 83,
+            'fra': 22,
+            'ger': 16,
+            'can': 13,
+        }
+        for cc in counts:
+            count = get_states_count(cc)
+            self.assertEqual(counts[cc], count)
