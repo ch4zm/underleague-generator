@@ -87,9 +87,9 @@ class BaseLinearBiasedGenerator(object):
         Normally, bias is toward items at front of list.
         If reverse is true, bias is twoard items at back of list.
         """
-        if size > len(self.data) or size < 0:
+        if size > len(self.data) or size < 1:
             raise Exception(
-                f"Error: generate_nonunique method got size parameter {size}, must be between 0 and {len(self.data)}"
+                f"Error: generate method got size parameter {size}, must be between 0 and {len(self.data)}"
             )
         if size > (2 * len(self.data)) // 3 and len(self.data) > 100:
             raise Exception(

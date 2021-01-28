@@ -34,6 +34,16 @@ def get_states_data_file_from_country_code(country_code):
     return os.path.join(GEO, fname)
 
 
+def get_team_names_data_file():
+    fname = "team_names.txt"
+    return os.path.join(DATA, fname)
+
+
+def get_leagues_divisions_data_file():
+    fname = "leagues_divisions.txt"
+    return os.path.join(DATA, fname)
+
+
 def get_cities_count(country_code):
     city_fname = f"{country_code}.txt"
     city_fpath = os.path.join(GEO, city_fname)
