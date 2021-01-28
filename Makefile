@@ -26,6 +26,10 @@ build: clean
 test:
 	pytest -vs tests
 
+coverage: | $(test_data_dir)
+	coverage run --source underleague_generator -m pytest -v
+	coverage report -m
+
 buildtest: clean build test
 
 cleantest: clean requirements requirements-dev build test
