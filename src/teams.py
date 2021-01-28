@@ -49,7 +49,6 @@ class LeagueDivisionNameGeneratorBase(IterableDataLoader):
 
         valid_data = [j for j in self.data if len(j) >= size]
         choice = random.choice(valid_data)[:]
-        #random.shuffle(choice)
         return choice[:size]
 
 
