@@ -43,6 +43,13 @@ def get_leagues_divisions_data_file():
     fname = "leagues_divisions.txt"
     return os.path.join(DATA, fname)
 
+def get_first_names_data_file():
+    fname = "first_names.txt"
+    return os.path.join(DATA, fname)
+
+def get_last_names_data_file():
+    fname = "last_names.txt"
+    return os.path.join(DATA, fname)
 
 def get_cities_count(country_code):
     city_fname = f"{country_code}.txt"
