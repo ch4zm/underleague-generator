@@ -7,6 +7,8 @@ from underleague_generator.utils import (
     get_state_country_codes,
     get_cities_data_file_from_country_code,
     get_states_data_file_from_country_code,
+    country_code_to_english,
+    get_abbr_key_file,
     get_team_names_data_file,
     get_leagues_divisions_data_file,
     get_cities_count,
@@ -39,6 +41,21 @@ class TestUtils(unittest.TestCase):
             our_path = os.path.join(GEO, f'{cc}.txt')
             their_path = get_cities_data_file_from_country_code(cc)
             self.assertEqual(our_path, their_path)
+
+    def test_country_code_to_english(self):
+        gold = {
+            'rus': 'Russia',
+            'usa': 'United States',
+            'Chi': 'Chile',
+            'CAN': 'Canada'
+        }
+        for country_code, country_name in gold.items():
+            self.assertEqual(country_code_to_english(country_code), country_name)
+
+    def test_get_abbr_key_file(self):
+        our_path = os.path.join(GEO, '_ABBR_KEY')
+        their_path = get_abbr_key_file()
+        self.assertEqual(our_path, their_path)
 
     def test_get_team_names_data_file(self):
         our_path = os.path.join(DATA, f'team_names.txt')
