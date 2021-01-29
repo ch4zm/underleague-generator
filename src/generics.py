@@ -1,9 +1,6 @@
 from collections.abc import Iterable
 import random
-from .errors import (
-    NotIterableError,
-    InvalidSizeRequestError
-)
+from .errors import NotIterableError, InvalidSizeRequestError
 
 
 class IterableDataLoader(object):

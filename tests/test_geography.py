@@ -1,6 +1,7 @@
 import random
 import unittest
 from underleague_generator.utils import get_city_country_codes, get_state_country_codes
+from underleague_generator.errors import CountryCodeError
 from underleague_generator.geography import (
     StatesGeneratorBase,
     StatesGenerator,
@@ -31,6 +32,10 @@ class TestGeography(unittest.TestCase):
         res2 = sg.generate_nonunique(size=10)
         self.assertIn("Texas", res2)
 
+    def test_states_generator_errors(self):
+        with self.assertRaises(CountryCodeError):
+            sg = StatesGenerator(country_code="blah-blah-blah")
+
     def test_small_states_generator(self):
         ssg = SmallStatesGenerator(country_code="usa")
 
@@ -41,6 +46,10 @@ class TestGeography(unittest.TestCase):
         random.seed(420)
         res2 = ssg.generate_nonunique(size=10)
         self.assertIn("Wyoming", res2)
+
+    def test_small_states_generator_errors(self):
+        with self.assertRaises(CountryCodeError):
+            sg = SmallStatesGenerator(country_code="blah-blah-blah")
 
     def test_big_states_generator(self):
         bsg = BigStatesGenerator(country_code="usa")
@@ -53,6 +62,10 @@ class TestGeography(unittest.TestCase):
         res2 = bsg.generate_nonunique(size=10)
         self.assertIn("California", res2)
 
+    def test_big_states_generator_errors(self):
+        with self.assertRaises(CountryCodeError):
+            sg = BigStatesGenerator(country_code="blah-blah-blah")
+
     def test_cities_generator(self):
         cg = CitiesGenerator(country_code="usa")
 
@@ -63,6 +76,10 @@ class TestGeography(unittest.TestCase):
         random.seed(420)
         res2 = cg.generate_nonunique(size=10)
         self.assertIn("Danbury", res2)
+
+    def test_cities_generator_errors(self):
+        with self.assertRaises(CountryCodeError):
+            sg = CitiesGenerator(country_code="blah-blah-blah")
 
     def test_small_towns_generator(self):
         cg = SmallTownsGenerator(country_code="usa")
@@ -75,6 +92,10 @@ class TestGeography(unittest.TestCase):
         res2 = cg.generate_nonunique(size=10)
         self.assertIn("Cold Spring Harbor", res2)
 
+    def test_small_towns_generator_errors(self):
+        with self.assertRaises(CountryCodeError):
+            sg = SmallTownsGenerator(country_code="blah-blah-blah")
+
     def test_big_cities_generator(self):
         cg = BigCitiesGenerator(country_code="usa")
 
@@ -86,6 +107,10 @@ class TestGeography(unittest.TestCase):
         res2 = cg.generate(size=10)
         self.assertIn("Anchorage", res2)
 
+    def test_big_cities_generator_errors(self):
+        with self.assertRaises(CountryCodeError):
+            sg = BigCitiesGenerator(country_code="blah-blah-blah")
+
     def test_city_country_codes(self):
         country_codes = get_city_country_codes()
         for country_code in country_codes:
@@ -93,9 +118,23 @@ class TestGeography(unittest.TestCase):
             BigCitiesGenerator(country_code=country_code)
             SmallTownsGenerator(country_code=country_code)
 
+        invalid_country_codes = ["nope", "narnia", "blahblahblah", "notlistening"]
+        for country_code in invalid_country_codes:
+            with self.assertRaises(CountryCodeError):
+                CitiesGenerator(country_code=country_code)
+                BigCitiesGenerator(country_code=country_code)
+                SmallTownsGenerator(country_code=country_code)
+
     def test_state_country_codes(self):
         country_codes = get_state_country_codes()
         for country_code in country_codes:
             StatesGenerator(country_code=country_code)
             BigStatesGenerator(country_code=country_code)
             SmallStatesGenerator(country_code=country_code)
+
+        invalid_country_codes = ["nope", "narnia", "blahblahblah", "notlistening"]
+        for country_code in invalid_country_codes:
+            with self.assertRaises(CountryCodeError):
+                StatesGenerator(country_code=country_code)
+                BigStatesGenerator(country_code=country_code)
+                SmallStatesGenerator(country_code=country_code)
