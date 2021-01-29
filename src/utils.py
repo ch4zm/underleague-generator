@@ -32,7 +32,7 @@ def country_code_to_english(cc):
     for line in lines:
         split = line.split(" ")
         if split[0].lower() == cc.lower():
-            return split[1]
+            return " ".join(split[1:])
 
     raise Exception(f"Error: country code {cc} not found in abbreviations key file!")
 
