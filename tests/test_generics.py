@@ -3,6 +3,10 @@ import os
 import unittest
 import tempfile
 import underleague_generator
+from underleague_generator.errors import (
+    InvalidSizeRequestError,
+    NotIterableError,
+)
 from underleague_generator.generics import (
     IterableDataLoader,
     UniformGenerator,
@@ -27,17 +31,8 @@ class GenericsTests(unittest.TestCase):
 
     def test_iterable_data_loader_errors(self):
         data = True
-        with self.assertRaises(Exception):
+        with self.assertRaises(NotIterableError):
             i = IterableDataLoader(data)
-
-        data2 = [0, 1, 2, 3]
-        i2 = IterableDataLoader(data2)
-
-        with self.assertRaises(Exception):
-            i2.generate(size=100)
-
-        with self.assertRaises(Exception):
-            i2.generate_nonunique(size=100)
 
     def check_generator(self, GenClass):
         nsamples = 100
@@ -55,7 +50,7 @@ class GenericsTests(unittest.TestCase):
         for sample in samples:
             self.assertIn(sample, data)
 
-        with self.assertRaises(Exception):
+        with self.assertRaises(InvalidSizeRequestError):
             g.generate(size=nsamples + 1)
 
     def test_uniform_generator(self):

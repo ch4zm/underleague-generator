@@ -1,5 +1,6 @@
 from collections.abc import Iterable
 import random
+from .errors import NotIterableError, InvalidSizeRequestError
 
 
 class IterableDataLoader(object):
@@ -7,7 +8,7 @@ class IterableDataLoader(object):
         if isinstance(data, Iterable):
             self.data = data
         else:
-            raise Exception(
+            raise NotIterableError(
                 "Error: data provided to {self.__class__.__name__} was not iterable!"
             )
 
@@ -19,8 +20,8 @@ class UniformGenerator(object):
         Returns a list of the specified size.
         """
         if size > len(self.data) or size < 0:
-            raise Exception(
-                f"Error: generate_nonunique method got size parameter {size}, must be between 0 and {len(self.data)}"
+            raise InvalidSizeRequestError(
+                f"{self.__class__.__name__}: Error: generate_nonunique method got size parameter {size}, must be between 0 and {len(self.data)}"
             )
         return random.choices(self.data, k=size)
 
@@ -30,12 +31,12 @@ class UniformGenerator(object):
         Returns a list of the specified size.
         """
         if size > len(self.data) or size < 0:
-            raise Exception(
-                f"Error: generate_nonunique method got size parameter {size}, must be between 0 and {len(self.data)}"
+            raise InvalidSizeRequestError(
+                f"{self.__class__.__name__}: Error: generate_nonunique method got size parameter {size}, must be between 0 and {len(self.data)}"
             )
         if size > (2 * len(self.data)) // 3 and len(self.data) > 100:
-            raise Exception(
-                f"Error: requested too many unique choices (>2/3 of a data set with >1k items)"
+            raise InvalidSizeRequestError(
+                f"{self.__class__.__name__}: Error: requested too many unique choices (>2/3 of a data set with >1k items)"
             )
         choices = set()
         while len(choices) < size:
@@ -67,8 +68,8 @@ class BaseLinearBiasedGenerator(object):
         If reverse is true, bias is twoard items at back of list.
         """
         if size > len(self.data) or size < 0:
-            raise Exception(
-                f"Error: generate_nonunique method got size parameter {size}, must be between 0 and {len(self.data)}"
+            raise InvalidSizeRequestError(
+                f"{self.__class__.__name__}: Error: generate_nonunique method got size parameter {size}, must be between 0 and {len(self.data)}"
             )
         revweights = list(range(1, len(self.data) + 1))
         if reverse:
@@ -88,12 +89,12 @@ class BaseLinearBiasedGenerator(object):
         If reverse is true, bias is twoard items at back of list.
         """
         if size > len(self.data) or size < 1:
-            raise Exception(
-                f"Error: generate method got size parameter {size}, must be between 0 and {len(self.data)}"
+            raise InvalidSizeRequestError(
+                f"{self.__class__.__name__}: Error: generate method got size parameter {size}, must be between 0 and {len(self.data)}"
             )
         if size > (2 * len(self.data)) // 3 and len(self.data) > 100:
-            raise Exception(
-                f"Error: requested too many unique choices (>2/3 of a data set with >1k items)"
+            raise InvalidSizeRequestError(
+                f"{self.__class__.__name__}: Error: requested too many unique choices (>2/3 of a data set with >1k items)"
             )
         revweights = list(range(1, len(self.data) + 1))
         if reverse:
