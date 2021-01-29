@@ -18,7 +18,7 @@ class TestSplortsLeague(unittest.TestCase):
             for division_name in division_names:
                 self.assertIn(division_name, res[league_name])
 
-        self.assertIn("Westport Coattails", res[league_names[0]][division_names[0]])
+        self.assertIn("Jersey City Barnstormers", res[league_names[0]][division_names[0]])
 
     def test_extract_leagues_divisions_teams_sim(self):
         league = {
@@ -65,7 +65,7 @@ class TestSplortsLeague(unittest.TestCase):
         self.assertIn("Epistemic", league_names)
         self.assertIn("Postminimalism", division_names)
         self.assertIn("Primitivism", division_names)
-        self.assertIn("Cedar City Sweatsocks", team_names)
+        self.assertIn("Albany Aqua Sox", team_names)
 
     def test_league_geo_type(self):
         # -----
@@ -84,9 +84,9 @@ class TestSplortsLeague(unittest.TestCase):
         self.assertIn('Epistemic', league_names)
         self.assertIn('Postminimalism', division_names)
         self.assertIn('Primitivism', division_names)
-        self.assertIn('Satis Fighting Asparagus', team_names)
-        self.assertIn('Pervoye Maya Gyroscopes', team_names)
-        self.assertIn('Olginskaya Stevedores', team_names)
+        self.assertIn('Avtury Aqua Sox', team_names)
+        self.assertIn('Podolsk Gyroscopes', team_names)
+        self.assertIn('Saratov Electioneers', team_names)
 
         # -----
         # States

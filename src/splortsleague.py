@@ -22,7 +22,7 @@ class SplortsLeagueGenerator(object):
     Use various generators to assemble a league of splorts teams.
     """
 
-    def __init__(self, geo=None, country_code="usa", **kwargs):
+    def __init__(self, geo="bigcities", country_code="usa", **kwargs):
         kwargs['country_code'] = country_code
         self.geo_type_map = {
             "cities": CitiesGenerator,
@@ -32,15 +32,12 @@ class SplortsLeagueGenerator(object):
             "bigstates": BigStatesGenerator,
             "smallstates": SmallStatesGenerator,
         }
-        if geo is None:
-            GeoGen = random.choice(list(self.geo_type_map.values()))
-        else:
-            if geo not in self.geo_type_map.keys():
-                valid_keys = ", ".join(self.geo_type_map.keys())
-                raise Exception(
-                    f"Error: Invalid geo parameter {geo} passed, should be in {valid_keys}"
-                )
-            GeoGen = self.geo_type_map[geo]
+        if geo not in self.geo_type_map.keys():
+            valid_keys = ", ".join(self.geo_type_map.keys())
+            raise Exception(
+                f"Error: Invalid geo parameter {geo} passed, should be in {valid_keys}"
+            )
+        GeoGen = self.geo_type_map[geo]
 
         self.geo = GeoGen(**kwargs)
         self.team = TeamNameGenerator(**kwargs)
