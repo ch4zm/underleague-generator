@@ -13,8 +13,8 @@ class TeamNameGeneratorBase(IterableDataLoader):
         if team_names_file is None:
             team_names_file = get_team_names_data_file()
         if not os.path.exists(team_names_file):
-            raise Exception(
-                f"Error: TeamNameGenerator passed a file that does not exist: {team_names_file}"
+            raise FileNotFoundError(
+                f"{self.__class__.__name__}: Error: specified teams file does not exist: {team_names_file}"
             )
         with open(team_names_file, "r") as f:
             data = f.readlines()
@@ -31,8 +31,8 @@ class LeagueDivisionNameGeneratorBase(IterableDataLoader):
         if leagues_divisions_file is None:
             leagues_divisions_file = get_leagues_divisions_data_file()
         if not os.path.exists(leagues_divisions_file):
-            raise Exception(
-                f"Error: League/DivisionNameGenerator passed a file that does not exist: {leagues_divisions_file}"
+            raise FileNotFoundError(
+                f"{self.__class__.__name__}: Error: specified leagues/divisions file does not exist: {leagues_divisions_file}"
             )
         with open(leagues_divisions_file, "r") as f:
             data = f.readlines()
@@ -43,9 +43,9 @@ class LeagueDivisionNameGeneratorBase(IterableDataLoader):
 
     def generate(self, size=1, reverse=False):
         if size > self.max_len:
-            raise Exception(f"Error: specified size exceeded maximum length {max_len}")
+            raise InvalidSizeRequestError(f"{self.__class__.__name__}: Error: specified size exceeded maximum length {max_len}")
         elif size < 1:
-            raise Exception(f"Error: size parameter {size} was too small")
+            raise InvalidSizeRequestError(f"{self.__class__.__name__}: Error: size parameter {size} was too small")
 
         valid_data = [j for j in self.data if len(j) >= size]
         choice = random.choice(valid_data)[:]

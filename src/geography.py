@@ -15,6 +15,11 @@ from .generics import (
     LinearBiasedGenerator,
     ReversedLinearBiasedGenerator,
 )
+from .errors import (
+    NotIterableError,
+    InvalidSizeRequestError,
+    GeographyError
+)
 
 
 class CitiesGeneratorBase(IterableDataLoader):
@@ -24,11 +29,11 @@ class CitiesGeneratorBase(IterableDataLoader):
 
     def __init__(self, **kwargs):
         if "country_code" not in kwargs:
-            raise Exception("Error: country_code is a required keyword argument")
+            raise KeywordError("Error: country_code is a required keyword argument")
         else:
             country_code = kwargs["country_code"]
         if country_code not in get_city_country_codes():
-            raise Exception(
+            raise CountryCodeError(
                 "Error: invalid country code {country_code} passed to {cls.__name__}"
             )
         cities_file = get_cities_data_file_from_country_code(country_code)
@@ -79,11 +84,11 @@ class StatesGeneratorBase(IterableDataLoader):
 
     def __init__(self, **kwargs):
         if "country_code" not in kwargs:
-            raise Exception("Error: country_code is a required keyword argument")
+            raise KeywordError("Error: country_code is a required keyword argument")
         else:
             country_code = kwargs["country_code"]
         if country_code not in get_state_country_codes():
-            raise Exception(
+            raise CountryCodeErrror(
                 "Error: invalid country code {country_code} passed to {cls.__name__}"
             )
         states_file = get_states_data_file_from_country_code(country_code)

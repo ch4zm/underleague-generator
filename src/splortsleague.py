@@ -50,7 +50,7 @@ class SplortsLeagueGenerator(object):
         if (nleagues < 0 or ndivisions < 0) or (
             nleagues > MAX_LEAGUES_DIVISIONS or ndivisions > MAX_LEAGUES_DIVISIONS
         ):
-            raise Exception(
+            raise KeywordError(
                 f"Error: number of leagues {nleagues} or divisions {ndivisions} was invalid"
             )
 
@@ -92,4 +92,3 @@ class SplortsLeagueGenerator(object):
             for div_name, team_list in div_dict.items():
                 [teams.add(j) for j in team_list]
         return sorted(list(leagues)), sorted(list(divs)), sorted(list(teams))
-

@@ -18,7 +18,7 @@ class FirstNameGeneratorBase(IterableDataLoader):
         if first_names_file is None:
             first_names_file = get_first_names_data_file()
         if not os.path.exists(first_names_file):
-            raise Exception(
+            raise FileNotFoundError(
                 f"Error: FirstNameGenerator passed a file that does not exist: {first_names_file}"
             )
         with open(first_names_file, "r") as f:
@@ -36,7 +36,7 @@ class LastNameGeneratorBase(IterableDataLoader):
         if last_names_file is None:
             last_names_file = get_last_names_data_file()
         if not os.path.exists(last_names_file):
-            raise Exception(
+            raise FileNotFoundError(
                 f"Error: LastNameGenerator passed a file that does not exist: {last_names_file}"
             )
         with open(last_names_file, "r") as f:
@@ -56,7 +56,7 @@ class NameGenerator(object):
 
     def generate(self, size=1, alliteration_rate=0.1):
         if size < 1:
-            raise Exception(f"Error: Invalid size passed to NameGenerator: {size}")
+            raise InvalidSizeRequestError(f"Error: Invalid size passed to NameGenerator: {size}")
         names = []
         for i in range(size):
             alliterate = random.random() < alliteration_rate
