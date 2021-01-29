@@ -24,6 +24,19 @@ def get_state_country_codes():
     return sorted(list(country_codes))
 
 
+def country_code_to_english(cc):
+    fname = get_abbr_key_file()
+    with open(fname, 'r') as f:
+        lines = f.readlines()
+    lines = [s.strip() for s in lines]
+    for line in lines:
+        split = line.split(" ")
+        if split[0].lower() == cc.lower():
+            return " ".join(split[1:])
+
+    raise Exception(f"Error: country code {cc} not found in abbreviations key file!")
+
+
 def get_cities_data_file_from_country_code(country_code):
     fname = country_code + ".txt"
     return os.path.join(GEO, fname)
@@ -31,6 +44,11 @@ def get_cities_data_file_from_country_code(country_code):
 
 def get_states_data_file_from_country_code(country_code):
     fname = country_code + "_states.txt"
+    return os.path.join(GEO, fname)
+
+
+def get_abbr_key_file():
+    fname = "_ABBR_KEY"
     return os.path.join(GEO, fname)
 
 
