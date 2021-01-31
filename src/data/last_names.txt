@@ -708,7 +708,6 @@ Garner
 Gaskell
 Gasket
 Gavelbush
-Gavelbush
 Gavelflower
 Gavelgrush
 Gavelhanger
@@ -2236,7 +2235,6 @@ Westerman
 Westwarren
 Wham
 Wheefer
-Wheeler
 Wheeler
 Wheerer
 Whichfield
