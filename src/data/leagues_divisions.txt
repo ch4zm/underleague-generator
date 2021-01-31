@@ -10,6 +10,7 @@ arrival,balance,transition,departure,sacrifice,reversal,enlightenment
 asteria,atlas,helios,selene,epimetheus,lelantos,ophion,pallas,perses,prometheus,styx
 basement,backroom,bathroom,bedroom,ballroom
 beamer,blackheart,blackpearl,bluezephyr,courierskill,crossbones,crossbeam,darkquest,elegantchaos,firewalk,fornsat,genesis,foxacid,globalreach,goldminer,headewater,hghlands,iratemonk,ivybells,jetplow,kingfish,liquidfire,littlekondlike,totechaser,thievingmagpie,tarotcard,streetcar,stormbrew,stellarwind,steelwinter,somberknafe,skywriter,sharkfin,sharedvision,ragemaster,orangecrush,wistfultoll,witchhunt,wolfpoint,keyscope,yatchshop,trinity,treasuremap
+berith,gressil,verrine
 beryl,amber,amethyst,cerussite,ceylonite,cinnabar,diamond,copal,gypsum,halite,jade,kunzite,lazurite,moonstone,onyx,opal,sapphire,pyrite,quartz,azurite,selenite,zircon,variscite,topaz,stilbite
 beryllium,magnesium,calcium,strontium,barium,radium
 bloodknot,blakehitch,blackwallhitch,bottlesling,halyardbend,halterhitch,farmerloop,tomfool,tugboathitch,versatackle,timberhitch,transom,waterbowline
