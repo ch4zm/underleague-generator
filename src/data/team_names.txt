@@ -135,6 +135,7 @@ Commuters
 Complications
 Concrete
 Confrontationalists
+Contractions
 Contrails
 Cookie Eaters
 Cool Cats
@@ -155,6 +156,7 @@ Cyberspies
 Cyclogravimetricians
 Daggers
 Dallas
+Dangling Participles
 Dead Batteries
 Dead Presidents
 Dear Deer
@@ -265,6 +267,7 @@ Footwork
 Foreshadowers
 Fork Benders
 Fork Tuners
+Forrest Gumps
 Fractions
 Fries
 Frivolities
@@ -362,7 +365,7 @@ Indefatigables
 Indestructibles
 Indicas
 Indicators
-Indigestions
+Indigestion
 Indiscriminates
 Indisposable Cutlery
 Individualiers
@@ -520,12 +523,14 @@ Newscasters
 Night Knights
 Night Owls
 Nightclub Owners
+Nightfrighters
 Nightmares
 Nightriders
 Nightsiders
 Nitrocellulose
 NoMa
 Noggins
+Noise-Canceling Headphones
 Non-Compliants
 Non-Uniform Paint Jobs
 Nonagenerians
@@ -582,6 +587,7 @@ Outlandish
 Outliers
 Overproportioned Cartoons
 Oversimplifiers
+Oxford Commas
 Oxidation
 Oxyphenobutazones
 Ozone Holes
@@ -593,8 +599,10 @@ Parabolas
 Paragraphs
 Parametric Curves
 Paranoia
+Parking Violtations
 Particle Accelerators
 Party Snacks
+Past Participles
 Pawns
 Payphones
 Peaceniks
@@ -625,12 +633,14 @@ Plungers
 Plunks
 Pokes
 Pop
+Posessive Contractions
 Post Classicalists
 Post No Bills
 Postals
 Postmillennials
 Potholes
 Prenups
+Presidents of the United States
 Primates
 Prime Numbers
 Principalities
@@ -725,6 +735,7 @@ Sea Borgs
 Sea Lions
 Seacrests
 Seasons
+Secondary Infractions
 Secondhand Information
 Semilogs
 Seraphim
