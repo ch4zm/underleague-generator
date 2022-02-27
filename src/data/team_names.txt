@@ -21,6 +21,7 @@ Apple Sox
 Aqua Sox
 Arbitration Clauses
 Arkansas
+Arson Unit
 Arsonists
 Astronauts
 Augusta
@@ -28,11 +29,13 @@ Avoiders
 Avulsions
 Bacon Bits
 Balloon Animals
+Back Streets
 Banking Software
 Barnstormers
 Bathtubs
 Beancounters
 Beaneaters
+Bears
 Beats
 Beauticians
 Beer Cans
@@ -49,6 +52,7 @@ Black & Tan
 Blanket Forts
 Blaseballers
 Blazers
+Bloodborne
 Blue Chips
 Boarders
 Boat Shoes
@@ -57,6 +61,7 @@ Bolt Cutters
 Boltcutters
 Bone Saws
 Bone Throwers
+Bookies
 Bookmakers
 Bookmenders
 Boomers
@@ -81,6 +86,8 @@ Business Majors
 Butchers
 Butlers
 Buttdials
+Butterfingers
+Butts
 Buzzsaws
 Cacti
 Cagefighters
@@ -108,6 +115,8 @@ Chili Peppers
 Chiralities
 Chloroform
 Choo Choo Trains
+Cigars
+Cigar Smokers
 Clamp Lamps
 Cleaners
 Cleavers
@@ -122,6 +131,7 @@ Commandos
 Commuters
 Complications
 Concrete
+Confrontationalists
 Contrails
 Cookie Eaters
 Cool Cats
@@ -135,7 +145,9 @@ Cow Controllers
 Craters
 Crouchfeet
 Crumbling Castles
+Crushers
 Curse Words
+Cyberlamps
 Cyberspies
 Cyclogravimetricians
 Daggers
@@ -147,20 +159,26 @@ Decay
 Deceit
 Delivery Drivers
 Demolishers
+Denominators
+Denominations
 Department of Motor Vehicles Bureaucrats
 Depth Carges
 Desk Jockeys
 Desklamps
+Detectives
+Detective Agency
 Devils
 Diamond Runners
 Diamonds
 Disappointments
+Divebombers
 Divers
 Do It For A Dollar
 Doctors
 Dolomites
 Dominions
 Doublers
+Downtown Area
 Driftwood
 Drunken Surgeons
 Dry Forks
@@ -216,6 +234,7 @@ Fighting Asparagus
 Finger Guns
 Fingerprints
 Fireproof Jackets
+Fishslappers
 Fist Shakers
 Fisticuffs
 Fists
@@ -299,6 +318,9 @@ Hand Signals
 Hand Washers
 Handsaws
 Handwarmers
+Hash Jacks
+Hash Tables
+Hawks
 Haymakers
 Headlice
 Headphone Tangles
@@ -550,6 +572,7 @@ Oxyphenobutazones
 Ozone Holes
 Page Turners
 Painmakers
+Paleopathologists
 Paperclips
 Parabolas
 Paragraphs
@@ -559,6 +582,8 @@ Particle Accelerators
 Party Snacks
 Pawns
 Payphones
+Peaceniks
+Peaches
 Pedestrians
 Pencilnecks
 Penguins
@@ -567,19 +592,32 @@ Phantoms
 Pharynges
 Phoenix
 Photosensitives
+Pigeons
+Pigeon Brains
 Pineapples
 Pines
 Pipefitters
+Pipers
 Pirates
 Pita Pockets
 Plague Rats
+Plaid Coats
+Plaid Pants
 Plenipotentiaries
+Plinks
+Plumbers
+Plungers
+Plunks
+Pokes
 Pop
 Post Classicalists
+Post No Bills
 Postals
 Postmillennials
 Potholes
 Prenups
+Primates
+Prime Numbers
 Principalities
 Product Managers
 Propellors
@@ -655,6 +693,7 @@ Santa Clauses
 Satistical Models
 Sativas
 Sausage
+Sausagefingers
 Sawhands
 Says Who
 Scissorkicks
@@ -680,6 +719,7 @@ Short Order Cooks
 Short Stacks
 Shrimps
 Sidekicks
+Skates
 Skeletons
 Skeptics
 Ski Lifts
@@ -688,6 +728,7 @@ Slashers
 Slime Mold
 Sloths
 Slugs
+Small Bills
 Smog
 Smoke
 Smooth Dogs
@@ -697,6 +738,7 @@ Snowflakes
 SoMa
 Souveniers
 Space Cars
+Sparkle Motion
 Sparkleflashes
 Special Advisors
 Speedboats
@@ -767,6 +809,8 @@ Trash Pandas
 Traversers
 Travesties
 Treehuggers
+Tries
+Trout
 Try Harders
 Turncoats
 U-Turns
@@ -787,6 +831,7 @@ Wakeboarders
 Warlocks
 Wasteland
 Waterborne Diseases
+Waves
 Wealth Redistributors
 Wedgewoods
 Werewolf Hunters
