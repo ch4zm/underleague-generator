@@ -56,6 +56,9 @@ Bloodborne
 Blue Chips
 Boarders
 Boat Shoes
+Boiled Carrots
+Boiled Vegetables
+Boils
 Boll Wevils
 Bolt Cutters
 Boltcutters
@@ -200,8 +203,11 @@ Embalmers
 Embarrassments
 Embroideries
 Enforcers
+Equations
+Equators
 Equilibrators
 Equilibria
+Equities
 Ergo
 Esophagi
 Evaders
@@ -296,6 +302,8 @@ Gin Queens
 Giraffe
 Glaciers
 Glasgows
+Glissaders
+Glitter Beetles
 Glitter Sharks
 Goddamn
 Goldeneyes
@@ -344,6 +352,7 @@ Hustlers
 Hypercubes
 Hyperplex
 Ice
+Ice Axes
 Icepicks
 Idempotents
 Idyls
@@ -365,6 +374,7 @@ Instrumentalists
 Insubordinates
 Insurrectionists
 Intellectuals
+Interest Rates
 Interferomters
 Interpolations
 Interpretationalists
@@ -374,6 +384,7 @@ Introverts
 Invertebrates
 Invisible Hands
 Ionization Energy
+Isobaloneys
 Isobars
 Isotropics
 Jackhammers
@@ -433,6 +444,8 @@ LoMa
 Loaves
 Lobsters
 Lockpickers
+Log Tables
+Logarithms
 Loose Bolts
 Losers
 Lost Causes
@@ -478,6 +491,8 @@ Monochromatics
 Monosaccharides
 Monotheists
 Moose
+Mortgage Backed Securities
+Mortgages
 Motorcycle Riders
 Motorcycles
 Motors
@@ -626,8 +641,13 @@ Psychonauts
 Psychophysicists
 Punishers
 Pyromancers
+Quadrant Guards
+Quadrants
 Quadruplicators
 Quantiles
+Quantum Isotopes
+Quarks
+Quasi Normalists
 Quatrains
 Quibblers
 Quietude
@@ -706,6 +726,7 @@ Sea Lions
 Seacrests
 Seasons
 Secondhand Information
+Semilogs
 Seraphim
 Sewer Covers
 Shakes
@@ -823,7 +844,23 @@ Universal Constants
 Upcreeks
 Updog
 Upstream Swimmers
+Vacuum
+Vans
+Variants
+Vehicles
+Vegetables
+Vegetarians
+Venture Capitalists
+Venusians
+Veridians
+Veritas
 VHS Tapes
+Victors
+Villagers
+Violations
+Visualizers
+Volcanoes
+Voyagers
 WTF
 Waffle Irons
 Waka Waka
