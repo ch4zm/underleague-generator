@@ -47,7 +47,7 @@ class CitiesGeneratorBase(IterableDataLoader):
 
 class CitiesGenerator(CitiesGeneratorBase, UniformGenerator):
     """
-    Generate random states uniformly
+    Generate random cities uniformly
     """
 
     def generate(self, *args, **kwargs):
